@@ -221,25 +221,25 @@ header ul a:nth-child(6){
   padding: 35px 0;
   color: black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around; 
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom:30px;
 }
 .browse-project-list-title{
   flex-basis: 50%;
+  text-align: center;
   color: rgb(5, 50, 68);
-  margin-left: 100px;
 }
 .browse-project-list-title h1{
-  font-size: 3.5rem;
+  font-size: 2.2rem;
   line-height: 2em;
 }
 .browse-project-list-content{
   flex-basis: 60%;
-  margin-right: 90px;
   display: flex;
+  margin: 0 40px;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
@@ -281,7 +281,7 @@ header ul a:nth-child(6){
   header ul {
     position: absolute;
     position: fixed;
-    background:rgba(29, 169, 224, 0.767);
+    background:rgba(29, 169, 224, 0.966);
     width: 250px;
     height: 100vh;
     top: 0;
@@ -331,11 +331,6 @@ header ul a:nth-child(6){
   }
   .banner-text a img{
     width: 30px;
-  }
-  .browse-project-list {
-    flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
   .browse-project-list-title{
     flex-basis: 100%;
