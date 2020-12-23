@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 :root {
     --main-color: rgb(29,169,224);
     --main-color2: rgb(11, 97, 131);
@@ -7,10 +8,161 @@
     position: relative;
     top: 55px;
     width: 100%;
+    z-index: 1;
     height: 94.2vh;
     background: linear-gradient(to right,var(--main-color2), var(--main-color));
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+.login-img-overlay{
+    transform: scaleX(-1);
+}
+.login-img-overlay img{
+    position: fixed;
+    pointer-events: none;
+    z-index: 30;
+    top: 8%;
+    left: 40%;
+    width: 31em;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.login-section .text-content{
+    margin-left: 150px;
+}
+
+.login-section .text-content h1{
+    font-size: 4.1rem;
+    font-family: poppins;
+    color: #fff;
+    font-weight: 600;
+}
+.login-section .text-content p{
+    color: white;
+    position: relative;
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 80px;
+}
+.login-section .text-content p a{
+    text-decoration: none;
+    font-weight: bold; 
+    color: white;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.603);
+    margin-left: 30px;
+    padding-bottom: 3px;
+    transition: border-bottom .5s ease-in;
+}
+.login-section .text-content p span{
+    position: absolute;
+    width: 0;
+    height: 2.6px;
+    border-radius: 20px;
+    top: 70px;
+    left: 120px;
+    background-color: white;
+}
+.login-section .text-content p a ~ span{
+    transition: width 0.35s ease-in-out;
+}
+.login-section .text-content p a:hover{
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.603);
+}
+.login-section .text-content p a:hover ~ span{
+    width: 180px;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.603);
+}
+
+.form-design{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    /* background-color: white; */
+    border-radius: 30px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+}
+.form-design form label,
+.form-design form input{
+    display: block;
+}
+
+.form-design form label{
+    color: white;
+    font-size: 1.2em;
+}
+.form-design form input{
+    width: 485px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(10, 78, 105, 0.329);
+    padding-left: 30px;
+    font-size: 18px;
+    color: white;
+    margin: 20px 0 40px 0;
+    font-weight: bold;
+}
+.form-design form input::-webkit-input-placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+.form-design form input::-moz-placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+.form-design form input:-ms-input-placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+.form-design form input::-ms-input-placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+.form-design form input::placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+.form-design form p:nth-child(3){
+    text-align: right;
+}
+.form-design form p:nth-child(2) input{
+    margin-bottom: 15px;
+}
+.form-design form p:nth-child(4) input{
+    width: 515px;
+    cursor: pointer;
+    background-color: rgb(11, 85, 114);
+}
+.form-design form p:nth-child(4) input:hover{
+    box-shadow: 0px 0px 20px rgb(11, 85, 114);
+}
+.form-design form p:nth-child(3) a{
+    color: #fff;
+    padding: 5px;
+    transition:  .25s ease-in-out;
+}
+
+

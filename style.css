@@ -41,6 +41,9 @@ header {
   height: 55px;
   background: linear-gradient(to right,var(--main-color2), var(--main-color));
 }
+a{
+  text-decoration: none;
+}
 header h2 a img{
   filter: brightness(10);
 }
@@ -61,6 +64,7 @@ header ul li {
   line-height: 55px;
   font-weight: bold;
   width: 150px;
+  font-size: 17px;
   text-align: center;
 }
 header ul a {
