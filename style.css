@@ -222,7 +222,7 @@ header ul a:nth-child(6){
   height: max-content;
   width: 100%;
   overflow: hidden;
-  background:linear-gradient(to left,rgb(160, 159, 159), white);
+  background: #fff;
   padding: 35px 0;
   color: black;
   display: flex;
