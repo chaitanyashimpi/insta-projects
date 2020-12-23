@@ -154,7 +154,7 @@
 .form-design form p:nth-child(4) input{
     width: 515px;
     cursor: pointer;
-    background-color:var(--main-color2);
+    background-color:var(--main-color);
     color: #fff;
 }
 .form-design form p:nth-child(4) input:hover{
