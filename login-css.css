@@ -51,7 +51,7 @@
 .login-section .text-content h1{
     font-size: 4.1rem;
     font-family: poppins;
-    color: var(--main-color2);
+    color: var(--main-color);
     font-weight: 600;
 }
 .login-section .text-content p{
@@ -109,16 +109,16 @@
 }
 
 .form-design form label{
-    color: black;
+    color: var(--main-color);
     font-size: 1.2em;
 }
 .form-design form input{
     width: 485px;
     height: 80px;
     border-radius: 20px;
-    border: none;
+    border: 1px solid black;
     outline: none;
-    background-color: rgba(10, 78, 105, 0.329);
+    /* background-color: rgba(10, 78, 105, 0.329); */
     padding-left: 30px;
     font-size: 18px;
     color: black;
@@ -126,24 +126,24 @@
     font-weight: bold;
 }
 .form-design form input::-webkit-input-placeholder{
-    color:black;
-    opacity: 0.5;
+    color:var(--main-color2);
+    opacity: 0.6;
 }
 .form-design form input::-moz-placeholder{
-    color:black;
-    opacity: 0.5;
+    color:var(--main-color2);
+    opacity: 0.6;
 }
 .form-design form input:-ms-input-placeholder{
-    color:black;
-    opacity: 0.5;
+    color:var(--main-color2);
+    opacity: 0.6;
 }
 .form-design form input::-ms-input-placeholder{
-    color:black;
-    opacity: 0.5;
+    color:var(--main-color2);
+    opacity: 0.6;
 }
 .form-design form input::placeholder{
-    color:black;
-    opacity: 0.5;
+    color:var(--main-color2);
+    opacity: 0.6;
 }
 .form-design form p:nth-child(3){
     text-align: right;
