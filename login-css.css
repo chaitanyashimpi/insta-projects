@@ -51,7 +51,7 @@
 .login-section .text-content h1{
     font-size: 4.1rem;
     font-family: poppins;
-    color: black;
+    color: var(--main-color2);
     font-weight: 600;
 }
 .login-section .text-content p{
@@ -154,7 +154,7 @@
 .form-design form p:nth-child(4) input{
     width: 515px;
     cursor: pointer;
-    background-color: rgb(11, 85, 114);
+    background-color:rgba(76, 141, 167, 0.747);
 }
 .form-design form p:nth-child(4) input:hover{
     box-shadow: 0px 0px 20px rgb(11, 85, 114);
