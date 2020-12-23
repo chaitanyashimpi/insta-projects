@@ -1,0 +1,10 @@
+:root {
+    --main-color: rgb(29,169,224);
+    --main-color2: rgb(11, 97, 131);
+}
+
+.login-section{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
