@@ -23,8 +23,8 @@
     position: fixed;
     pointer-events: none;
     z-index: 30;
-    top: 8%;
-    left: 40%;
+    top: 50%;
+    left: 36%;
     width: 31em;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
