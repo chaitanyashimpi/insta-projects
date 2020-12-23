@@ -45,7 +45,7 @@ header h2 a img{
   filter: brightness(10);
 }
 header h2 a{
-  padding: 15px 0 0 30px;
+  padding: 15px 0 0 80px;
   float: left; 
   color: #fff;
   text-decoration: none;
@@ -59,6 +59,7 @@ header ul li {
   padding: 0 20px;
   color: #fff;
   line-height: 55px;
+  font-weight: bold;
   width: 150px;
   text-align: center;
 }
