@@ -226,7 +226,7 @@ header ul a:nth-child(6){
   overflow: hidden;
   background: #fff;
   padding: 35px 0;
-  color: black;
+  color: var(--main-color);
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
@@ -237,7 +237,7 @@ header ul a:nth-child(6){
 .browse-project-list-title{
   flex-basis: 50%;
   text-align: center;
-  color: rgb(5, 50, 68);
+  color: var(--main-color);
   margin-bottom: 30px;
 }
 .browse-project-list-title h1{
@@ -272,6 +272,7 @@ header ul a:nth-child(6){
 }
 .browse-project-list-content p:hover{
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.329);
+  background-color: var(--main-color2);
 }
 #browse-project-list hr{
   width: 90%;
@@ -367,8 +368,11 @@ footer .top-footer{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 50px 0;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+.foot-common{
+  display: grid;
 }
 /* Responsiveness */
 
