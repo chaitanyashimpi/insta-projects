@@ -23,7 +23,18 @@
 }
 /* Scroll Bar End */
 
+/* Text Selection Color */
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #9e69b4;
+}
 
+::selection {
+  color: #fff;
+  background: #9e69b4;
+}
+
+/* End Text Selection color changer */
 
 *{
   margin: 0;
@@ -45,10 +56,6 @@ header {
 }
 a{
   text-decoration: none;
-}
-header h2 a img{
-  -webkit-filter: brightness(10);
-          filter: brightness(10);
 }
 header h2 a{
   padding: 15px 0 0 80px;
