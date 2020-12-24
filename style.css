@@ -33,7 +33,6 @@
 body, html{
   height: 100%;
   scroll-behavior: smooth;
-  overflow: scroll;
 }
 header {
   position: fixed;
@@ -497,6 +496,7 @@ footer .top-footer{
   label #menu-open{
     display: block;
   }
+
   header ul {
     position: absolute;
     position: fixed;
