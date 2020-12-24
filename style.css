@@ -256,6 +256,7 @@ header ul a:nth-child(6){
 .browse-project-list-content a{
   text-decoration: none;
   color: white;
+  transition: font-weight .75s ease;
 }
 .browse-project-list-content a p{
   font-size: 1.3rem;
@@ -265,7 +266,9 @@ header ul a:nth-child(6){
   border-radius: 20px;
   font-weight: 500; 
   margin: 10px;
+  transition: font-weight .75s ease, box-shadow .75s ease, background-color .75s ease;
 }
+
 .browse-project-list-content p:hover,
 .browse-project-list-content a:hover{
   font-weight: 900;
@@ -356,8 +359,13 @@ header ul a:nth-child(6){
   font-weight: 600;
   margin-top: 20px;
   display: block;
-  background-color: var(--main-color);
+  border: 4px solid #fff;
   border-radius: 50px;
+  transition: background-color .5s ease, border .5s ease;
+}
+#cta-create-project a:hover{
+  background-color: var(--main-color2);
+  border: 4px solid transparent;
 }
 
 /* Footer */
@@ -373,6 +381,7 @@ footer .top-footer{
 }
 .foot-common{
   display: grid;
+  
 }
 /* Responsiveness */
 
