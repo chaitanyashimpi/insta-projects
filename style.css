@@ -255,11 +255,11 @@ header ul a:nth-child(6){
 }
 .browse-project-list-content a{
   text-decoration: none;
-  color: rgb(7, 75, 102);
+  color: white;
 }
-.browse-project-list-content p{
+.browse-project-list-content a p{
   font-size: 1.3rem;
-  background-color: #fff;
+  background-color: rgb(48, 182, 235);
   padding: 10px 20px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.329);
   border-radius: 20px;
@@ -276,8 +276,8 @@ header ul a:nth-child(6){
 #browse-project-list hr{
   width: 90%;
   margin: 0 5%;
-  border: 2px solid rgb(68, 67, 67);
-  background-color: rgb(68, 67, 67);
+  border: 2px solid rgba(68, 67, 67, 0);
+  background-color: rgba(68, 67, 67, 0.5);
   border-radius: 20px;
 }
 /* Video Section */
@@ -302,21 +302,24 @@ header ul a:nth-child(6){
   width: 60%;
 }
 .video-section-content i{
-  font-size: 50px;
+  color: var(--main-color2);
+  font-size: 70px;
 }
 .video-section-content h1{
   font-size: 3rem;
-  font-weight: 500;
+  color: var(--main-color);
+  font-weight: 600;
 }
 .video-section-content hr{
   width: 150px;
-  border: 2px solid black;
+  border: 2px solid var(--main-color);
   margin: 10px 0 20px 0;
-  background-color: black;
+  background-color: var(--main-color);
   border-radius: 20px;
 }
 .video-section-content p{
   width:fit-content;
+  color: var(--main-color2);
 }
 .video-section-video{
   margin-top: 50px;
@@ -324,11 +327,49 @@ header ul a:nth-child(6){
 .video-section-video iframe{
   width: 800px;
   height: 450px;
+  border-radius: 20px;
 }
 
-/* Create a Project */
+/* CTA Create a Project */
+#cta-create-project{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to right,var(--main-color2), var(--main-color));;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* padding: 30px 0; */
+}
+#cta-create-project h1{
+  font-size: 2.3rem;
+  font-family: poppins;
+  color: white;
+}
+#cta-create-project a{
+  color: white;
+  padding: 20px 30px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 20px;
+  display: block;
+  background-color: var(--main-color);
+  border-radius: 50px;
+}
 
-
+/* Footer */
+footer{
+  position: relative;
+}
+footer .top-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
 /* Responsiveness */
 
 /* Tablet Mode */
