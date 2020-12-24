@@ -44,6 +44,7 @@
 body, html{
   height: 100%;
   scroll-behavior: smooth;
+  background-color: #fff;
 }
 header {
   position: fixed;
@@ -483,7 +484,7 @@ footer .top-footer{
     position: fixed;
     background:rgba(29, 169, 224, 0.966);
     width: 250px;
-    height: 100vh;
+    height: 100%;
     top: 0;
     right: -250px; 
     margin: 0px 0 0 0;
