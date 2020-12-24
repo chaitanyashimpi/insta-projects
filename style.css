@@ -563,7 +563,7 @@ footer .top-footer{
     font-size: 2rem;
     line-height: 2.5rem;
   }
-  .browse-project-list-content p{
+  .browse-project-list-content a p{
     font-size: 0.8rem;
     font-weight: 600;
   }
