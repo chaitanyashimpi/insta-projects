@@ -47,7 +47,8 @@ a{
   text-decoration: none;
 }
 header h2 a img{
-  filter: brightness(10);
+  -webkit-filter: brightness(10);
+          filter: brightness(10);
 }
 header h2 a{
   padding: 15px 0 0 80px;
@@ -221,6 +222,8 @@ header ul a:nth-child(6){
 /* Browse Project List - Home Page */
 .browse-project-list{
   position: relative;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   width: 100%;
   overflow: hidden;
@@ -290,6 +293,8 @@ header ul a:nth-child(6){
   position: relative;
   width: 100%;
   padding: 50px 0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   background-color: #fff;
   display: flex;
@@ -322,6 +327,8 @@ header ul a:nth-child(6){
   border-radius: 20px;
 }
 .video-section-content p{
+  width:-webkit-fit-content;
+  width:-moz-fit-content;
   width:fit-content;
   color: var(--main-color2);
 }
@@ -372,17 +379,25 @@ header ul a:nth-child(6){
 footer{
   position: relative;
 }
+footer a{
+  font-weight: 500;
+  color: var(--main-color);
+}
+footer h2{
+  font-weight: 600;
+  color: var(--main-color2);
+}
 footer .top-footer{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 50px 70px;
 }
-.foot-common{
-  display: grid;
-  
+.foot-common h3{
+  margin: 20px 0;
 }
+
 /* Responsiveness */
 
 /* Tablet Mode */
