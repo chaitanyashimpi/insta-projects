@@ -336,8 +336,8 @@ header ul a:nth-child(6){
   margin-top: 50px;
 }
 .video-section-video iframe{
-  width: calc(16 * 3.5); /*800px*/
-  height: calc(9 * 3.5); /*450px*/
+  width: 800px;
+  height: 450px;
   border-radius: 20px;
 }
 
@@ -571,8 +571,8 @@ footer .top-footer{
     font-weight: 600;
   }
   .video-section-video iframe{
-    width: 400px;
-    height: 225px;
+    width: 320px;
+    height: 180px;
   }
   .video-section-content h1{
     font-size: 2em;
