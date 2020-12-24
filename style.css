@@ -408,7 +408,6 @@ footer .top-footer{
   font-size: 1.1rem;
   border-radius: 6px;
   background-color: #fff;
-  padding: 0 10px 0 0;
   color: rgba(11, 97, 131, 0.678);
   font-weight: bold;
 }
@@ -589,5 +588,75 @@ footer .top-footer{
     padding: 10px 15px;
     border: 2px solid #fff;
   }
+  footer{
+    /* width: 425px; */
+    padding: 0 15px;
+  }
+  footer .top-footer a{
+    font-size: 12px;
+  }
+  footer .top-footer h2{
+    font-size: 18px;
+  }
+  footer .top-footer{
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  .foot-common:first-child,
+  .foot-common:nth-child(2),
+  .foot-common:nth-child(3){
+    margin-right: 10px;
+  }
+  .foot-common:last-child select{
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 12px;
+  }
+  .foot-common:last-child select option{
+    border: 1px solid black;
+    font-size: 12px;
+  }
+  .foot-common h3{
+    margin: 8px 0;
+  }
+  .bottom-footer p{
+    font-size: 13px;
+  }
+  .bottom-footer span{
+    font-size: 14px;
+  }
+  .bottom-footer{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-foot a{
+    width: 45x;
+    height: 25px;
+    font-size: 15px
+  }
+  .social-foot{
+    width: 100%;
+    margin-right: 0px;
+  }
+  .social-foot a:hover{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 9px;
+  }
 }
-
+@media only screen and (max-width: 425px) {
+  footer .top-footer{
+    max-width: 607px;
+    padding: 20px 0;
+  }
+  footer .top-footer{
+    max-width: 350px;
+  }
+  .foot-common{
+    margin-top: 20px;
+  }
+}
