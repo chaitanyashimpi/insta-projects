@@ -269,7 +269,7 @@ header ul a:nth-child(6){
   border-radius: 20px;
   font-weight: 500; 
   margin: 10px;
-  transition: font-weight .75s ease, box-shadow .75s ease, background-color .75s ease;
+  transition: font-weight .75s ease, box-shadow .75s ease,;
 }
 
 .browse-project-list-content p:hover,
