@@ -622,5 +622,15 @@ footer .top-footer{
     width: 320px;
     height: 180px;
   }
+  .go-to-top-button{
+    bottom: 30px;
+    right: 30px;
+  }
+  .go-to-top-button a{
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+  }
+  
 }
 
