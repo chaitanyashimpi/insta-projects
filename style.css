@@ -336,8 +336,8 @@ header ul a:nth-child(6){
   margin-top: 50px;
 }
 .video-section-video iframe{
-  width: 800px;
-  height: 450px;
+  width: 800px; /*800px*/
+  height: 450px; /*450px*/
   border-radius: 20px;
 }
 
@@ -628,6 +628,7 @@ footer .top-footer{
     font-size: 14px;
   }
   .bottom-footer{
+    padding: 0 50px;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -658,5 +659,22 @@ footer .top-footer{
   }
   .foot-common{
     margin-top: 20px;
+  }
+  .social-foot a{
+    width: 40x;
+    height: 20px;
+    font-size: 14px
+  }
+  .social-foot a:hover{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 9px;
+  }
+  .bottom-footer p{
+    font-size: 12px;
+  }
+  .bottom-footer span{
+    font-size: 12px;
   }
 }
