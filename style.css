@@ -379,12 +379,13 @@ header ul a:nth-child(6){
 footer{
   position: relative;
 }
-footer a{
-  font-weight: 500;
+footer .top-footer a{
+  font-weight: 600;
   color: var(--main-color);
 }
-footer h2{
-  font-weight: 600;
+footer .top-footer h2{
+  font-weight: 900;
+  cursor: default;
   color: var(--main-color2);
 }
 footer .top-footer{
@@ -397,7 +398,93 @@ footer .top-footer{
 .foot-common h3{
   margin: 20px 0;
 }
-
+.foot-common:last-child select{
+  display: block;
+  margin-top: 20px;
+  width: 220px;
+  outline: none;
+  height: 40px;
+  border: 2px solid black;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 0 10px 0 0;
+  color: rgba(11, 97, 131, 0.678);
+  font-weight: bold;
+}
+.foot-common:last-child select option:first-child{
+  cursor: not-allowed;
+}
+.foot-common:last-child select option{
+  border: 2px solid black;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 0 10px 0 0;
+  color: rgba(11, 97, 131, 0.678);
+  font-weight: bold;
+}
+.bottom-footer{
+  height: 70px;
+  background: linear-gradient(to right, var(--main-color2), var(--main-color));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 70px;
+  color: #fff;
+  justify-content: space-between;
+}
+.bottom-footer p{
+  font-size: 20px;
+}
+.bottom-footer span{
+  font-size: 25px;
+}
+.social-foot{
+  height: 70px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.social-foot a{
+  color: var(--main-color2);
+  width: 52px;
+  margin-right: 15px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 12px;
+  transition: width .25s ease, padding-top .25s ease, font-size .25s ease, height .25s ease;
+}
+.social-foot a:hover{
+  width: 54px;
+  height: 42px;
+  font-size: 29px;
+  padding-top: 14px;
+}
+.social-foot a:first-child:hover{
+  background-color: #4267B2;
+  color: white;
+}
+.social-foot a:nth-child(2):hover{
+  background-color: #00aced;
+  color: white;
+}
+.social-foot a:nth-child(3):hover{
+  background-color: #fb3958;
+  color: white;
+}
+.social-foot a:nth-child(4):hover{
+  background-color: #2867B2;
+  color: white;
+}
+.social-foot a:last-child:hover{
+  background-color: #FF0000;
+  color: white;
+}
 /* Responsiveness */
 
 /* Tablet Mode */
