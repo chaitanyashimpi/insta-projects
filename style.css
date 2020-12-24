@@ -577,5 +577,16 @@ footer .top-footer{
   .video-section-content h1{
     font-size: 2em;
   }
+  #cta-create-project{
+    height: 250px;
+  }
+  #cta-create-project h1{
+    font-size: 1.3rem;
+  }
+  #cta-create-project a{
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+  }
 }
 
