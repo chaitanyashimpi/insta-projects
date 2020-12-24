@@ -415,6 +415,9 @@ footer .top-footer{
 .foot-common:last-child select option:first-child{
   cursor: not-allowed;
 }
+.foot-common h3 a:hover{
+  color: rgb(80, 124, 141);
+}
 .foot-common:last-child select option{
   border: 2px solid black;
   font-size: 1.1rem;
