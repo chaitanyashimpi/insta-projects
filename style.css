@@ -258,14 +258,14 @@ header ul a:nth-child(6){
 }
 .browse-project-list-content a{
   text-decoration: none;
-  color: white;
+  color: var(--main-color);
   transition: font-weight .75s ease;
 }
 .browse-project-list-content a p{
   font-size: 1.3rem;
-  background-color: rgb(48, 182, 235);
+  background-color: #fff;
   padding: 10px 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.329);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
   border-radius: 20px;
   font-weight: 500; 
   margin: 10px;
@@ -277,8 +277,8 @@ header ul a:nth-child(6){
   font-weight: 900;
 }
 .browse-project-list-content p:hover{
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.329);
-  background-color: var(--main-color2);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.329);
+  /* background-color: var(--main-color2); */
 }
 #browse-project-list hr{
   width: 90%;
