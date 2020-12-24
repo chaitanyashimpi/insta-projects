@@ -64,7 +64,7 @@
 .login-section .text-content p a{
     text-decoration: none;
     font-weight: bold; 
-    color: black;
+    color: var(--main-color);
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.603);
     margin-left: 30px;
     padding-bottom: 3px;
@@ -91,9 +91,8 @@
 }
 
 .form-design{
-    width: fit-content;
-    height: fit-content;
-    /* background-color: white; */
+    width: max-content;
+    height: max-content;
     border-radius: 30px;
     padding: 20px 25px;
     display: flex;
@@ -114,7 +113,6 @@
     border-radius: 20px;
     border: 1px solid black;
     outline: none;
-    /* background-color: rgba(10, 78, 105, 0.329); */
     padding-left: 30px;
     font-size: 18px;
     color: black;
@@ -157,7 +155,7 @@
     box-shadow: 0px 0px 20px rgb(11, 85, 114);
 }
 .form-design form p:nth-child(3) a{
-    color: #fff;
+    color: var(--main-color);
     padding: 5px;
     transition:  .25s ease-in-out;
 }
@@ -170,17 +168,51 @@
         display: none;
     }
     .login-section .text-content{
-        margin-left: 50px;
+        margin-left: 0;
     }
     .login-section .text-content h1{
-        font-size: 2.5rem;
-    }
-    .form-design form input{
-        width: 300px;
+        font-size: 2.3rem;
     }
     .login-section{
+        background-color: #fff;;
         flex-direction: column;
-        top: 130px;
+        /* justify-content: center; */
+        top: 60px;
+    }
+    .login-section .text-content{
+        text-align: center;
+    }
+    .login-section .text-content p{
+        margin-top:10px;
+        font-size: 19px;
+    }
+    .login-section .text-content p a{
+        margin-left: 15px;
+    }
+    .login-section .text-content p span{
+        margin-left: 0px;
+    }
+    .login-section .text-content p a:hover ~ span{
+        width: 140px;
+    }
+    .form-design{
+        padding: 20px 0;
+    }
+    .form-design form label{
+        font-size: 14px;
+    }
+    .form-design form input{
+        font-size: 14px;
+        width: 300px;
+        height: 50px;
+    }
+    .form-design form p:nth-child(4) input{
+        width: 330px;
+    }
+    .login-form{
+        background-color: rgba(11, 85, 114, 0.096);
+        padding: 10px 30px;
+        border-radius: 20px;
     }
 }
 
