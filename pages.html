@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Link | BidMyProject</title>
     <link rel="shortcut icon" href="Images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
         *{
             margin: 0;
             padding: 0;
             background-color: #333333;
-            font-family: poppins;
+            font-family: 'Poppins', sans-serif;
         }
         a{
             text-decoration: none;
@@ -20,6 +21,7 @@
             padding: 10px 20px;
             border: 2px solid rgb(29,169,224);
             transition: background-color .25s ease-in-out, color .25s ease-in-out;
+            margin-left: 40px;
         }
         h1{
             color: white;
@@ -46,12 +48,34 @@
             align-items: center;
             min-height: 100vh;
         }
+        a.not-completed{
+            position: relative;
+            color: rgb(141, 3, 3);
+            border-color: rgb(141, 3, 3);
+            cursor: not-allowed;
+        }
+        a.not-completed:hover{
+            color:  rgb(141, 3, 3);
+            background-color:  transparent;
+        }
+        a.not-completed::before{
+            content: ' (Incomplete)';
+            color: rgb(156, 154, 154);
+            font-size: 12px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
     @media only screen and (max-width: 1150px) {
         h1{
             font-size: 1.5rem;
         }
         .links a{
             font-size: 14px;
+            margin-left: 0;
+        }
+        a.not-completed::before{
+            font-size: 9px;
         }
     }
     </style>
@@ -59,9 +83,29 @@
 <body>
     <h1><img src="Images/whiteLogo.png" alt=""> BidMyProject</h1>
     <div class="links">
-        <a href="index.html">Home Page (index.html File)</a>
-        <a href="login.html">Login Page (login.html File)</a>
-        <a href="register.html">Register Page(register.html File)</a>
+
+        <!-- Completed -->
+        <a href="index.html" title="Completed">Home Page</a>
+        <a href="login.html" title="Completed">Login Page</a>
+        <a href="register.html" title="Completed">Register Page</a>
+
+        <!-- Incomplete -->
+        <a href="#incomplete" class="not-completed" title="Incomplete">Find Contractors Page</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete">Browse Projects</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete">Open New Project -></a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> <- Additional Proect Details</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Bid Project</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Join to Bid Project</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Profile</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Customer Feedback</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Cart / Order Summary</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Customer Review</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Contractors Review</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Terms and Conditions</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Copyright</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Pricary Policy</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> Contact Us</a>
+        <a href="#incomplete" class="not-completed" title="Incomplete"> About Us</a>
     </div>
 </body>
 </html>
