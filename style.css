@@ -204,8 +204,8 @@ header ul a:nth-child(6){
 .go-to-top-button{
   position: fixed;
   z-index: 100;
-  bottom: 40px;
-  right: 40px;
+  bottom: 15px;
+  right: 15px;
   cursor: pointer;
   transition: bottom 0.2s ease-in-out;
 }
@@ -216,17 +216,17 @@ header ul a:nth-child(6){
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 60px;
+  width: 40px;
   color: var(--main-color2);
-  height: 60px;
-  font-size: 35px;
+  height: 40px;
+  font-size: 24px;
   background-color: #fff;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.329);
   margin: 4px;
 }
 .go-to-top-button:hover,
 .go-to-top-button a:hover{
-  bottom: 50px;
+  bottom: 20px;
 }
 
 /* Browse Project List - Home Page */
@@ -576,8 +576,11 @@ footer .top-footer{
     padding: 10px 15px;
     border: 2px solid #fff;
   }
+  .go-to-top-button:hover,
+  .go-to-top-button a:hover{
+    bottom: 15px;
+  }
   footer{
-    /* width: 425px; */
     padding: 0 15px;
   }
   footer .top-footer a{
