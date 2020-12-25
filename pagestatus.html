@@ -48,6 +48,25 @@
             align-items: center;
             min-height: 100vh;
         }
+        a.working{
+            position: relative;
+            color: #f9b52e;
+            border-color: #f9b52e;
+            cursor: progress;
+        }
+        a.working:hover{
+            color: #333333;
+            background-color: #f9b52e;
+            font-weight: bolder;
+        }
+        a.working::before{
+            content: ' (Build Process)';
+            color: #f9f9f9;
+            font-size: 12px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
         a.not-completed{
             position: relative;
             color: rgb(141, 3, 3);
@@ -88,10 +107,10 @@
         <a href="index.html" title="Completed">Home Page</a>
         <a href="login.html" title="Completed">Login Page</a>
         <a href="register.html" title="Completed">Register Page</a>
+        <a href="#incomplete" class="working" title="Build Process">Browse Projects</a>
 
         <!-- Incomplete -->
         <a href="#incomplete" class="not-completed" title="Incomplete">Find Contractors Page</a>
-        <a href="#incomplete" class="not-completed" title="Incomplete">Browse Projects</a>
         <a href="#incomplete" class="not-completed" title="Incomplete">Open New Project -></a>
         <a href="#incomplete" class="not-completed" title="Incomplete"> <- Additional Proect Details</a>
         <a href="#incomplete" class="not-completed" title="Incomplete"> Bid Project</a>
