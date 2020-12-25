@@ -488,6 +488,7 @@ footer .top-footer{
     right: -250px; 
     margin: 0px 0 0 0;
     transition: .5s ease;
+    padding-top: 55px;
   }
   header h2 a{
     padding: 15px 0 0 30px;
@@ -501,7 +502,6 @@ footer .top-footer{
   } 
   header #bid-menu:checked ~ ul{
     right: 0;
-    padding-top: 55px;
   }
   header #bid-menu:checked ~ label #menu-open{
     display: none;
