@@ -135,7 +135,7 @@ header ul a:nth-child(6){
 /* Banner */
 .banner{
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.657), rgba(0, 0, 0, 0.61)), url("Images/banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.657), rgba(0, 0, 0, 0.61)), url("../Images/banner-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
