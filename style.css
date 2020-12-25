@@ -501,6 +501,7 @@ footer .top-footer{
   } 
   header #bid-menu:checked ~ ul{
     right: 0;
+    padding-top: 55px;
   }
   header #bid-menu:checked ~ label #menu-open{
     display: none;
