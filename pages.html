@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Link | BidMyProject</title>
+    <link rel="shortcut icon" href="Images/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+            font-family: poppins;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(29,169,224);
+            font-size: 27px;
+            padding: 10px 20px;
+            border: 2px solid rgb(29,169,224);
+            transition: background-color .25s ease-in-out, color .25s ease-in-out;
+        }
+        h1{
+            color: white;
+            position: fixed;
+            z-index: 2;
+            top: 30px;
+            left: 50%;
+            cursor: default;
+            transform: translateX(-50%);
+            font-size: 2.5rem;
+        }
+        h1 img{
+            width: 40px;
+        }
+        a:hover{
+            background-color: rgb(29,169,224);
+            color: #fff;
+        }
+        .links{
+            margin: 0 40px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1><img src="Images/whiteLogo.png" alt=""> BidMyProject</h1>
+    <div class="links">
+        <a href="index.html">Home Page (index.html File)</a>
+        <a href="login.html">Login Page (login.html File)</a>
+        
+    </div>
+</body>
+</html>
