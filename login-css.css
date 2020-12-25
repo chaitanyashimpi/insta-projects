@@ -9,7 +9,7 @@
     top: 55px;
     width: 100%;
     z-index: 1;
-    height: 94.2vh;
+    height: 79.9vh;
     background: #fff;
     display: flex;
     flex-direction: row;
@@ -159,6 +159,9 @@
     padding: 5px;
     transition:  .25s ease-in-out;
 }
+.bottom-footer{
+    padding-top: 60px;
+}
 
 
 /* Responsiveness */
@@ -176,7 +179,7 @@
     .login-section{
         background-color: #fff;;
         flex-direction: column;
-        /* justify-content: center; */
+        height: 90vh;
         top: 60px;
     }
     .login-section .text-content{
@@ -216,7 +219,7 @@
         border-radius: 20px;
     }
     .form-design form p:nth-child(3) a{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 

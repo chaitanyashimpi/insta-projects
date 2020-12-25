@@ -478,7 +478,6 @@ footer .top-footer{
   label #menu-open{
     display: block;
   }
-
   header ul {
     position: absolute;
     position: fixed;
@@ -606,6 +605,9 @@ footer .top-footer{
   }
   .foot-common h3{
     margin: 8px 0;
+  }
+  .social-foot a{
+    font-size: 28px;
   }
 }
 @media only screen and (max-width: 425px) {
