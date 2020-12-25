@@ -99,7 +99,9 @@ label #menu-close{
   z-index: 10;
   display: none;
 }
-
+label #menu-close{
+  font-size: 35px;
+}
 header #bid-menu{
   display: none;
 }
