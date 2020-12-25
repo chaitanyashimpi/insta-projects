@@ -40,12 +40,24 @@
         }
         .links{
             margin: 0 40px;
+            position: relative;
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
             align-items: center;
             height: 100vh;
         }
+    @media only screen and (max-width: 425px) {
+        h1{
+            font-size: 1.5rem;
+        }
+        .links{
+            top: 4.5rem;
+        }
+        .links a{
+            font-size: 17px;
+        }
+    }
     </style>
 </head>
 <body>
@@ -53,8 +65,7 @@
     <div class="links">
         <a href="index.html">Home Page (index.html File)</a>
         <a href="login.html">Login Page (login.html File)</a>
-        <a href="register.html">Login Page (login.html File)</a>
-        
+        <a href="register.html">Register Page(register.html File)</a>
     </div>
 </body>
 </html>
