@@ -437,6 +437,7 @@ footer .top-footer{
   font-weight: bold;
 }
 
+
 .bottom-footer{
   background: linear-gradient(to right,var(--main-color2), var(--main-color));
 }

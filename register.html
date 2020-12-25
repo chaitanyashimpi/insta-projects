@@ -6,8 +6,9 @@
     <title>Login | BidMyProject</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login-css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login-css.css">
+    <link rel="stylesheet" href="css/register-css.css">
     <link rel="shortcut icon" href="Images/favicon.png">
 
 </head>
@@ -39,24 +40,40 @@
     </span>
     <section class="login-section">
         <div class="text-content">
-            <h1>Sign In to</h1>
+            <h1>Register to</h1>
             <h1>Bid Your Project</h1>
-            <p>If you don't have an account <br> You can <a href="#register.html">Register here!</a> <span></span></p>
+            <p>If you have an account <br> You can <a href="#login.html#customerLogin">Login here!</a> <span></span></p>
         </div>
         <div class="login-form">
             <div class="form-design">
                 <form action="">
                     <p>
-                        <label for="email">Email: </label>
-                        <input type="email" name="email" placeholder="Enter your Email Address">
+                        <label for="fname">First Name: </label>
+                        <input type="text" name="fname" placeholder="Enter your first name" required>
                     </p>
+                    <p>
+                        <label for="lname">Last Name: </label>
+                        <input type="text" name="lname" placeholder="Enter your last name" required>
+                    </p>
+                    <br>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" class="problem-input-left-margin" name="email" placeholder="Enter your email address" required>
+                    </p>
+                    <p>
+                        <label for="phno">Contact Number:</label>
+                        <input type="tel" name="phno" placeholder="Enter your contact number" required>
+                    </p>
+                    <br>
                     <p>
                         <label for="Password">Password: </label>
-                        <input type="password" name="Password" placeholder="Password">
+                        <input type="password" name="Password" placeholder="Password" required>
                     </p>
                     <p>
-                        <a href="#">Forgotten Password?</a>
+                        <label for="Password">Confirm Password: </label>
+                        <input type="password" name="Password" placeholder="Confirm Password" required>
                     </p>
+                    <br>
                     <p>
                         <input type="submit" name="submit" value="LOGIN">
                     </p>

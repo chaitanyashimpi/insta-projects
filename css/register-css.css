@@ -1,0 +1,147 @@
+@media only screen and (max-width: 890px){
+    .login-section .text-content{
+        margin-left: 0;
+    }
+    .login-section .text-content h1{
+        font-size: 2.3rem;
+    }
+    .login-section{
+        background-color: #fff;;
+        flex-direction: column;
+        height: 90vh;
+        top: 210px;
+        margin-bottom: 370px;
+    }
+    .login-section .text-content{
+        text-align: center;
+    }
+    .login-section .text-content p{
+        margin-top:10px;
+        font-size: 19px;
+    }
+    .login-section .text-content p a{
+        margin-left: 15px;
+    }
+    .login-section .text-content p span{
+        margin-left: 0px;
+    }
+    .login-section .text-content p a:hover ~ span{
+        width: 140px;
+    }
+    .form-design{
+        padding: 20px 0 0 0;
+    }
+    .form-design form label{
+        font-size: 14px;
+    }
+    .form-design form input{
+        margin-bottom: 10px;
+    }
+    .form-design form br{
+        display: none;
+    }
+    .form-design form input{
+        font-size: 14px;
+        width: 250px;
+        height: 50px;
+    }
+    .form-design form p:last-child input{
+        width: 280px;
+        padding-left: 0;
+    }
+    .login-form{
+        background-color: rgba(11, 85, 114, 0.096);
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+    .form-design form p:nth-child(3){
+        text-align: left;
+    }
+    .bottom-footer{
+        padding-top: 0;
+    }
+
+}
+@media only screen and (min-width: 890px) {
+    .login-img-overlay{
+        display: none;
+    }
+    .login-section .text-content{
+        margin-left: 0;
+    }
+    .login-section .text-content h1{
+        font-size: 2.3rem;
+    }
+    .login-section{
+        background-color: #fff;;
+        flex-direction: column;
+        height: 90vh;
+        top: 90px; 
+        margin-bottom: 130px;
+    }
+    .login-section .text-content{
+        text-align: center;
+    }
+    .login-section .text-content p{
+        margin-top:10px;
+        font-size: 19px;
+    }
+    .login-section .text-content p a{
+        margin-left: 10px;
+    }
+    .login-section .text-content p span{
+        margin-left: 10px;
+    }
+    .login-section .text-content p a:hover ~ span{
+        width: 115px;
+    }
+    .form-design{
+        padding: 20px 0 0 0;
+    
+    }
+    .form-design form label{
+        font-size: 14px;
+    }
+    .form-design form input{
+        font-size: 14px;
+        width: 350px;
+        height: 50px;
+    }
+    .form-design form p:last-child input{
+        width: 280px;
+        padding-left: 0;
+        margin: 0 100% 15px;
+    }
+    .login-form{
+        background-color: rgba(11, 85, 114, 0.096);
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+    .form-design{
+        flex-direction: column-reverse;
+    }
+    .form-design p,
+    .form-design form input{
+        display: inline-block;
+    }
+    .form-design form p:nth-child(3) a{
+        font-size: 13px;
+    }
+    .form-design form p:nth-child(3){
+        text-align: left;
+    }
+    .form-design form p:nth-child(2),
+    .form-design form p:nth-child(5),
+    .form-design form p:nth-child(8){
+        margin-left: 40px;
+    }
+    .bottom-footer{
+        padding-top: 0;
+    }
+
+} 
+
+
+
+
+

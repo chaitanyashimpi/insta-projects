@@ -145,13 +145,13 @@
 .form-design form p:nth-child(2) input{
     margin-bottom: 15px;
 }
-.form-design form p:nth-child(4) input{
+.form-design form p:last-child input{
     width: 515px;
     cursor: pointer;
     background-color:var(--main-color);
     color: #fff;
 }
-.form-design form p:nth-child(4) input:hover{
+.form-design form p:last-child input:hover{
     box-shadow: 0px 0px 20px rgb(11, 85, 114);
 }
 .form-design form p:nth-child(3) a{
@@ -209,7 +209,7 @@
         width: 250px;
         height: 50px;
     }
-    .form-design form p:nth-child(4) input{
+    .form-design form p:last-child input{
         width: 280px;
         padding-left: 0;
     }
