@@ -4,7 +4,7 @@
 }  
 
 .projectSearchBar{
-    position: relative;
+    position: fixed;
     top: 90px;
     display: flex;
     align-items: center;
@@ -19,6 +19,7 @@
     border-bottom-left-radius: 10px;
     font-size: 16px;
     padding-left: 30px;
+    padding-right: 30px;
     outline: none;
     color: black;
     font-weight: bold;
@@ -52,92 +53,20 @@
 .listProject{
     position: relative;
     top: 80px;
-    margin-bottom: 150px;
-    margin-top: 40px;
-    display: flex;
+    margin: 100px 160px;
+    height: 100vh;
 }
-
-/* Filter */
 .listProject-filter{
-    
+    position: fixed;
 }
-
-/* Projects */
-
-.project-card{
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+.allListProject{
+    margin-left: 30rem;
 }
-.project-user{
-    flex-basis: 15%;
-    text-align: center;
-    /* padding: 0 20px; */
-    
-}
-.project-user img{
-    width: 130px;
-    /* background-color: grey; */
-    border-radius: 50%;
-    border: 2px solid rgba(128, 128, 128, 0.274);
-    /* padding-bottom: 10px; */
-    margin-bottom: 10px;
-}
-.project-content{
-    flex-basis: 85%;
-    border-left: 1px solid rgba(0, 0, 0, 0.233);
-    padding-left: 40px;
-    /* background-color: bisque; */
-}
-.project-btn a{
-    text-decoration: none;
-}
-.project-card-content{
-    display: flex;
-    flex-wrap: wrap;
-}
-.project-card-content div{
-    margin-bottom: 15px;
-}
-.project-card-content div:first-child{
-    color: rgb(0, 109, 172);
-}
-.project-desc p:first-child{
-    margin-bottom: 10px;
-    color: rgb(0, 109, 172);
-}
-.project-desc p:last-child{
-    text-align: justify;
-}
-.project-btn a{
-    color: black;
-    font-weight: 600;
-}
-.project-btn a:first-child span{
-    margin: 0 20px 0 50px;
-}
-@media only screen and (max-width:768px){
-    .project-card{
-        flex-wrap: wrap;
+@media only screen and (max-width: 1150px) {
+    .projectSearchBar form input:first-child{
+        width: 270px;
     }
-    .project-user{
-        padding: 0;
-        margin: 0;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-    .project-content{
-        margin: 0;
-        flex-basis: 100%;
-        border: 0;
-        padding: 10px;
-    }
-    .project-btn a:first-child span{
-        margin: 0 10px 0 30px
+    .projectSearchBar form input:last-child{
+        width: 70px;
     }
 }

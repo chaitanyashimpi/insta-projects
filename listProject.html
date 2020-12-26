@@ -38,7 +38,7 @@
                 <li>Logout</li>
             </a>
             <li> 
-                <label for="drop" class="toggle">Welcome, Milind <i class="fa fa-user-circle"></i></label>
+                <label for="drop">Welcome, Milind <i class="fa fa-user-circle"></i></label>
                 <input type="checkbox" id="drop">
                 <ul>
                     <a href="profile.html">
@@ -52,42 +52,55 @@
             
         </ul>
     </header>
+
+    <!-- SearchBar -->
     <section class="projectSearchBar">
             <form action="">
-                <input type="text" name="" id="" placeholder="Enter your search term">
+                <input type="text" placeholder="Search for Project">
                 <input type="button" value="Search" >
             </form>
     </section>
+
+    <!-- Main Section -->
     <section class="listProject">
         <div class="listProject-filter">
-
+            <form action="">
+                <p>
+                    <label for="status">Status</label>
+                    <select name="status">
+                        <option value="Status" disabled>Select...</option>
+                        <option value="Worktype1">Worktype1</option>
+                        <option value="Worktype2">Worktype2</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="miles">Project in Miles: </label>
+                    <input type="text" name="miles" placeholder="Min">
+                    <input type="text" placeholder="Max" name="miles">
+                </p>
+                <p>
+                    <label for="budget">Budget: </label>
+                    <input type="text" name="miles" placeholder="Min">
+                    <input type="text" placeholder="Max" name="miles">
+                </p>
+                <p>
+                    <label for="worktype">WorkType</label>
+                    <select name="worktype">
+                        <option value="worktype" disabled>Select...</option>
+                        <option value="Worktype1">Worktype1</option>
+                        <option value="Worktype2">Worktype2</option>
+                    </select>
+                </p>
+            </form>
         </div>
         <div class="allListProject">
-            <div class="project-card">
-                <div class="project-user">
-                    <img src="Images/Users/user1.png" alt="">
-                    <h3>User 1</h3>
-                </div>
-                <div class="project-content">
-                    <div class="project-card-content">
-                        <div class="project-title">
-                            <h2>This is the title of the project</h2>
-                        </div>
-                        <div class="project-desc">
-                            <p>Open Till:</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio labore autem voluptate doloremque nesciunt. Dolorem dolor quis hic. Architecto, corporis. Enim iure doloribus in magnam soluta dolorum quas, rem non? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sit sint cum mollitia cupiditate quaerat aperiam illo nemo! Rerum excepturi ab fuga necessitatibus consectetur unde facere, optio sint praesentium omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit repudiandae, exercitationem earum at a facere assumenda beatae? Nobis corrupti est atque, mollitia optio id aut esse odit, numquam sequi eligendi.
-                            Iusto numquam tempore eius earum repellendus sint nemo et, quo unde error? Id molestiae ipsum perferendis! Voluptatum cupiditate tempora asperiores quasi ipsa a quibusdam optio, qui obcaecati aspernatur magni vitae.
-                            Tempora nisi illum vitae. Id sit qui labore voluptate soluta rem velit quod, neque, dolorum nemo esse dignissimos quis perferendis expedita eveniet eum deleniti sed, earum aspernatur a nam. Minima.</p>
-                        </div>
-                        <div class="project-btn">
-                            <a href="#">Total Bids: 101 <span>&gt</span></a>
-                            <a href="#">Bid Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h1>Projects Here</h1>
         </div>
     </section>
+
+
+
+
     <!-- Footer -->
 
     <footer>
@@ -124,21 +137,20 @@
             <div class="foot-common">
                 <h2>Country & Language</h2>
                 <form>
-                    <select name="" id="country">
-                        <option value="Country" disabled id="country"><span class="fa fa-globe"></span> Country</option>
-                        <option value="America" selected id="country">America</option>
-                        <option value="Canada" id="country">Canada</option>
+                    <select name="" >
+                        <option value="Country" disabled ><span class="fa fa-globe"></span> Country</option>
+                        <option value="America" selected >America</option>
+                        <option value="Canada" >Canada</option>
                     </select>
-                    <select name="" id="language">
-                        <option value="Language" disabled id="language"><span class="fa fa-language"></span> Language</option>
-                        <option value="ENGLISH" selected id="language">English</option>
-                        <option value="SPANISH" id="language">Spanish</option>
+                    <select name="" >
+                        <option value="Language" disabled ><span class="fa fa-language"></span> Language</option>
+                        <option value="ENGLISH" selected >English</option>
+                        <option value="SPANISH" >Spanish</option>
                     </select>
                 </form>
             </div>
         </div>
     </footer>
-    <div class="btm-footer-bc">
         <div class="bottom-footer">
             <div class="bottom-footer-content">
                 <div class="social-foot">
@@ -151,6 +163,5 @@
                 <p><span>&copy;</span> BidMyProject, Inc. All Rights Reserved.</p>
             </div>
         </div>
-    </div>
 </body>
 </html>
