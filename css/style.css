@@ -388,6 +388,7 @@ header ul a:nth-child(6){
 /* Footer */
 footer{
   position: relative;
+  background-color: #fff;
 }
 footer .top-footer a{
   font-weight: 600;

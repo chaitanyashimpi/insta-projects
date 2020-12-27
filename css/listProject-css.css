@@ -54,13 +54,45 @@
     position: relative;
     top: 80px;
     margin: 100px 160px;
-    height: 100vh;
 }
 .listProject-filter{
     position: fixed;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(1, 106, 114, 0.089);
+}
+.listProject-filter h1{
+    padding: 5px 20px;
+    background-color: var(--main-color);
+    width: fit-content;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 120px;
+}
+.listProject-filter label{
+    display: block;
+    font-size: 1.5rem;
+    /* color: var(--main-color2); */
+    margin: 30px 0 10px 0;
+}
+.listProject-filter input{
+    width: 130px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+.listProject-filter select{
+    width: 130px;
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding-left: 30px;
 }
 .allListProject{
-    margin-left: 30rem;
+    margin-left: 26rem;
+    height: 100vh;
 }
 @media only screen and (max-width: 1150px) {
     .projectSearchBar form input:first-child{
@@ -68,5 +100,18 @@
     }
     .projectSearchBar form input:last-child{
         width: 70px;
+    }
+    .listProject{
+        margin: 100px 20px;
+    }
+    .listProject-filter{
+        overflow-x: scroll;
+    }
+
+
+    .allListProject{
+        margin-left: 0;
+        position: relative;
+        top: 35rem;
     }
 }

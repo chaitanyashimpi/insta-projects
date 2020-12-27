@@ -65,28 +65,29 @@
     <section class="listProject">
         <div class="listProject-filter">
             <form action="">
+                <h1>Filter</h1>
                 <p>
-                    <label for="status">Status</label>
+                    <label for="status">Status: </label>
                     <select name="status">
-                        <option value="Status" disabled>Select...</option>
-                        <option value="Worktype1">Worktype1</option>
-                        <option value="Worktype2">Worktype2</option>
+                        <option value="Status" disabled selected>Select...</option>
+                        <option value="Open">Open</option>
+                        <option value="Close">Close</option>
                     </select>
                 </p>
                 <p>
                     <label for="miles">Project in Miles: </label>
-                    <input type="text" name="miles" placeholder="Min">
-                    <input type="text" placeholder="Max" name="miles">
+                    <input type="number" name="miles" placeholder="Min" min="0">
+                    <input type="number" placeholder="Max" name="miles" min="0">
                 </p>
                 <p>
                     <label for="budget">Budget: </label>
-                    <input type="text" name="miles" placeholder="Min">
-                    <input type="text" placeholder="Max" name="miles">
+                    <input type="number" name="miles" placeholder="Min" min="0">
+                    <input type="number" placeholder="Max" name="miles" min="0">
                 </p>
                 <p>
-                    <label for="worktype">WorkType</label>
-                    <select name="worktype">
-                        <option value="worktype" disabled>Select...</option>
+                    <label for="work-types">WorkType: </label>
+                    <select name="work-types">
+                        <option value="Select..." disabled selected>Select...</option>
                         <option value="Worktype1">Worktype1</option>
                         <option value="Worktype2">Worktype2</option>
                     </select>
