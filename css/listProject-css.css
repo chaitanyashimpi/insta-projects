@@ -61,7 +61,7 @@
     padding: 20px;
     background-color: rgba(1, 106, 114, 0.089);
 }
-.listProject-filter h1{
+.listProject-filter .filter-btn{
     padding: 5px 20px;
     background-color: var(--main-color);
     width: fit-content;
@@ -69,13 +69,13 @@
     color: #fff;
     margin-left: 120px;
 }
-.listProject-filter label{
+.listProject-filter form label{
     display: block;
     font-size: 1.5rem;
     /* color: var(--main-color2); */
     margin: 30px 0 10px 0;
 }
-.listProject-filter input{
+.listProject-filter form input{
     width: 130px;
     height: 30px;
     outline: none;
@@ -83,7 +83,7 @@
     border: 1px solid black;
     padding-left: 30px;
 }
-.listProject-filter select{
+.listProject-filter form select{
     width: 130px;
     border-radius: 5px;
     height: 30px;
@@ -96,18 +96,44 @@
 }
 @media only screen and (max-width: 1150px) {
     .projectSearchBar form input:first-child{
-        width: 270px;
+        width: 50vw;
     }
     .projectSearchBar form input:last-child{
         width: 70px;
     }
     .listProject{
-        margin: 100px 20px;
+        margin: 60px 10px;
     }
     .listProject-filter{
-        overflow-x: scroll;
+        background-color: white;
     }
-
+    .listProject-filter .filter-btn{
+        margin-left: 295px;
+        font-size: 16px;
+        /* cursor: pointer; */
+    }
+    .listProject-filter .filter-btn-checkbox{
+        /* opacity: 0; */
+    }
+    .listProject-filter form{
+        position: fixed;
+        z-index: 150;
+        /* top: 200px; */
+        left: -370px;
+        border-radius: 10px;
+        /* opacity: 0; */
+        background-color: rgba(29, 169, 224, 0.548);
+        padding: 20px;
+    }
+    .listProject-filter .filter-btn-checkbox ~ form{
+        transition: top .5s ease-in-out, opacity .5s ease-in-out;
+    }
+    .listProject-filter .filter-btn-checkbox:checked ~ form{
+        left: 20px;
+        opacity: 1;
+    }
+    
+    
 
     .allListProject{
         margin-left: 0;
