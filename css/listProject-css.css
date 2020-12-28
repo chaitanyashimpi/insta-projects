@@ -88,6 +88,7 @@
     width: 130px;
     border-radius: 5px;
     height: 30px;
+    background-color: #fff;
     outline: none;
     padding-left: 30px;
 }
@@ -168,7 +169,7 @@
     margin-left: 40px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1150px) {
     
     /* Search Bar Responsiveness */
     .projectSearchBar form input:first-child{
@@ -219,8 +220,19 @@
     }
     .listProjectCard{
         flex-direction: column;
+        padding: 20px;
     }
     .go-to-top-button{
         display: inherit;
+    }
+    .listProject-profile-Content{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .listProject-profile-Content h2{
+        font-size: 14px;
+    }
+    .listProject-profile-Content p{
+        font-size: 13px;
     }
 }

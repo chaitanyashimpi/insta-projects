@@ -57,6 +57,7 @@ header {
 }
 a{
   text-decoration: none;
+  outline: none;
 }
 header h2 a{
   padding: 15px 0 0 80px;
