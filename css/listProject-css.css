@@ -113,7 +113,7 @@
         /* cursor: pointer; */
     }
     .listProject-filter .filter-btn-checkbox{
-        /* opacity: 0; */
+        opacity: 0;
     }
     .listProject-filter form{
         position: fixed;
@@ -126,7 +126,7 @@
         padding: 20px;
     }
     .listProject-filter .filter-btn-checkbox ~ form{
-        transition: top .5s ease-in-out, opacity .5s ease-in-out;
+        transition: left .5s ease-in-out, opacity .5s ease-in-out;
     }
     .listProject-filter .filter-btn-checkbox:checked ~ form{
         left: 20px;
