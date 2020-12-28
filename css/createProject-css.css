@@ -6,7 +6,8 @@
     position: relative;
     margin-top: 62px;
     display: flex;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
     height: 80vh;
     width: 80%;
     align-items: center;
@@ -52,7 +53,10 @@
 .createProjectContent input:last-child {
     background-color: var(--main-color);
     margin-top: 20px;
-    width: 100px;
+    width: 150px;
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     font-weight: bold;
 }
