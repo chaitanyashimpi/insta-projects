@@ -38,7 +38,7 @@
                 <li>Logout</li>
             </a>
             <li> 
-                <label for="drop" class="toggle">Welcome, Milind <i class="fa fa-user-circle"></i></label>
+                <label for="drop">Welcome, Milind <i class="fa fa-user-circle"></i></label>
                 <input type="checkbox" id="drop">
                 <ul>
                     <a href="profile.html">
@@ -53,8 +53,23 @@
         </ul>
     </header>
 
-    <section class="listProject">
+    <section class="createProject">
+        <div class="createProjectContent">
+            <h1>Create a Project</h1>
+            <form action="">
+                
+                <label for="title">Project Title: </label>
+                <input type="text" id="title" placeholder="Give a Project Name">
 
+                <label for="desc">Project Description: </label>
+                <textarea id="desc" rows="10" placeholder="Tell Us about your Project"></textarea>
+                
+                <label for="phno">Phone Number</label>
+                <input type="tel" name="" id="phno" placeholder="Phone Number">
+
+                <input type="button" value="Next">
+            </form>
+        </div>
     </section>
     <!-- Footer -->
 
@@ -106,7 +121,6 @@
             </div>
         </div>
     </footer>
-    <div class="btm-footer-bc">
         <div class="bottom-footer">
             <div class="bottom-footer-content">
                 <div class="social-foot">
@@ -119,6 +133,5 @@
                 <p><span>&copy;</span> BidMyProject, Inc. All Rights Reserved.</p>
             </div>
         </div>
-    </div>
 </body>
 </html>

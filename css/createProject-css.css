@@ -1,0 +1,70 @@
+:root {
+    --main-color: rgb(29,169,224);
+    --main-color2: rgb(11, 97, 131);
+}
+.createProject{
+    position: relative;
+    margin-top: 62px;
+    display: flex;
+    margin-left: 10%;
+    height: 80vh;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.createProjectContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createProjectContent h1{
+    color: var(--main-color);
+    font-size: 1.8rem;
+}
+.createProjectContent label, 
+.createProjectContent input, 
+.createProjectContent textarea {
+    display: block;
+    margin-top: 10px;
+}
+.createProjectContent label{
+    font-weight: bold;
+    color: var(--main-color);
+}
+.createProjectContent input{
+    width: 600px;
+    height: 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.createProjectContent textarea {
+    width: 600px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+    padding: 10px
+}
+
+.createProjectContent input:last-child {
+    background-color: var(--main-color);
+    margin-top: 20px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1150px) {
+    .createProjectContent h1{
+        font-size: 1.3rem;
+    }
+    .createProject{
+        margin-left: 0;
+    }
+    .createProjectContent input,
+    .createProjectContent textarea{
+        width: 360px;
+    }
+}
