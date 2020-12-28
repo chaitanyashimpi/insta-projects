@@ -61,6 +61,9 @@
     padding: 20px;
     background-color: rgba(1, 106, 114, 0.089);
 }
+.listProject-filter .filter-btn-checkbox{
+    display: none;
+}
 .listProject-filter .filter-btn{
     padding: 5px 20px;
     background-color: var(--main-color);
@@ -108,9 +111,9 @@
         background-color: white;
     }
     .listProject-filter .filter-btn{
-        margin-left: 295px;
+        margin-left: 200px;
         font-size: 16px;
-        /* cursor: pointer; */
+        cursor: pointer;
     }
     .listProject-filter .filter-btn-checkbox{
         opacity: 0;
