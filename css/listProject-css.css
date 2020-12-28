@@ -52,7 +52,7 @@
 
 
 
-/* List Project */
+/* List Project Filter*/
 .listProject{
     position: relative;
     margin: 50px 160px;
@@ -63,7 +63,7 @@
     padding: 20px;
     background-color: rgba(1, 106, 114, 0.089);
 }
-.listProject-filter .filter-btn{
+.listProject-filter h1{
     padding: 5px 20px;
     background-color: var(--main-color);
     width: fit-content;
@@ -91,10 +91,65 @@
     outline: none;
     padding-left: 30px;
 }
+
+/* Project List */
+
 .allListProject{
     margin-left: 26rem;
-    height: 100vh;
+    height: max-content;
+    color: var(--main-color);
+    margin-bottom: 200px;
 }
+
+.listProjectCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    /* background-color: rgba(1, 106, 114, 0.089); */
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.listProject-profile{
+    flex-basis: 20%;
+    display: flex;
+    /* background-color: green; */
+    flex-direction: column;
+    align-items: center;
+}
+.listProject-profile img{
+    width: 180px;
+    padding-top: 10px;
+    background-color: rgba(1, 106, 114, 0.089);
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    margin-bottom: 10px;
+}
+.go-to-top-button{
+    display: none;
+}
+.listProject-profile-Content{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.listProject-profile-Content h2{
+    font-size: 16px;
+    text-align: justify;
+    color: var(--main-color);
+}
+.listProject-profile-Content span{
+    margin-top: 10px;
+    color: var(--main-color);
+    font-size: 14px;
+}
+.listProject-profile-Content p{
+    color: #333333;
+}
+
+
 @media only screen and (max-width: 770px) {
     
     /* Search Bar Responsiveness */
@@ -142,5 +197,10 @@
         position: relative;
         top: 1rem;
         margin-left: 20px;
+        margin-bottom: 20px;
     }
+    .listProjectCard{
+        flex-direction: column;
+    }
+
 }
