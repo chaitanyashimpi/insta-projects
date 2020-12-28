@@ -121,12 +121,15 @@
     .listProject-filter form{
         position: fixed;
         z-index: 150;
-        /* top: 200px; */
+        top: 190px;
         left: -370px;
         border-radius: 10px;
-        /* opacity: 0; */
+        opacity: 0;
         background-color: rgba(29, 169, 224, 0.548);
         padding: 20px;
+    }
+    .listProject-filter form input{
+        width: 90px;
     }
     .listProject-filter .filter-btn-checkbox ~ form{
         transition: left .5s ease-in-out, opacity .5s ease-in-out;
@@ -136,8 +139,6 @@
         opacity: 1;
     }
     
-    
-
     .allListProject{
         margin-left: 0;
         position: relative;
