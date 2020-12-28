@@ -123,7 +123,7 @@
     }
     .listProject-filter form{
         position: fixed;
-        width: 300px;
+        width: 280px;
         /* z-index: 150; */
         top: 190px;
         left: -370px;
