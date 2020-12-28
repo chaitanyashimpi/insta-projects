@@ -78,7 +78,6 @@
 .listProject-filter form label{
     display: block;
     font-size: 1.5rem;
-    /* color: var(--main-color2); */
     margin: 30px 0 10px 0;
 }
 .listProject-filter form input{
@@ -100,7 +99,9 @@
     margin-left: 26rem;
     height: 100vh;
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 770px) {
+    
+    /* Search Bar Respoiveness */
     .projectSearchBar form input:first-child{
         width: 50vw;
     }
@@ -121,37 +122,32 @@
     .listProject-filter .filter-btn-checkbox{
         opacity: 0;
     }
+    .listProject-filter{
+        position: static;
+    }
     .listProject-filter form{
-        position: fixed;
-        width: 265px;
-        /* z-index: 150; */
-        top: 190px;
-        left: -370px;
+        position: static;
+        width: 90%;
         border-radius: 10px;
-        opacity: 0;
+        margin-top: 10px;
         background-color: rgba(29, 169, 224, 0.548);
         padding: 20px;
     }
     .listProject-filter form input{
-        width: 90px;
+        width: 37%;
     }
-    .listProject-filter .filter-btn-checkbox ~ form{
-        transition: left .5s ease-in-out, opacity .5s ease-in-out;
-    }
-    .listProject-filter .filter-btn-checkbox:checked ~ form{
-        left: 20px;
-        opacity: 1;
+    .listProject-filter form label{
+        font-size: 1rem;
     }
     .allListProject{
         z-index: 10;
-        margin-left: 0;
         position: relative;
         top: 4rem;
         margin-left: 20px;
     }
 }
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
     .listProject-filter form{
         width: 250px;
     }
-}
+} */
