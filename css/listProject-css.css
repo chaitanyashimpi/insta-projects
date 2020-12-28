@@ -142,6 +142,7 @@
     .allListProject{
         margin-left: 0;
         position: relative;
-        top: 35rem;
+        top: 4rem;
+        margin-left: 20px;
     }
 }
