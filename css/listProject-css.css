@@ -99,6 +99,9 @@
     height: max-content;
     color: var(--main-color);
     margin-bottom: 200px;
+    background-color: rgba(1, 106, 114, 0.089);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .listProjectCard{
@@ -106,16 +109,14 @@
     flex-direction: row;
     align-items: center;
     height: fit-content;
-    /* background-color: rgba(1, 106, 114, 0.089); */
-    border: 2px solid var(--main-color);
     border-radius: 20px;
     padding: 30px;
     margin-top: 20px;
+    background-color: #fff;
 }
 .listProject-profile{
     flex-basis: 20%;
     display: flex;
-    /* background-color: green; */
     flex-direction: column;
     align-items: center;
 }
@@ -148,7 +149,24 @@
 .listProject-profile-Content p{
     color: #333333;
 }
-
+.listProject-profile h4{
+    color: #333333;
+}
+.list-project-inner-btn img{
+    width: 25px;
+    filter: contrast(2);
+}
+.list-project-inner-btn{
+    margin-top: 30px;
+}
+.list-project-inner-btn a{
+    color: var(--main-color2);
+}
+.list-project-inner-btn a span{
+    font-size: 20px;
+    color: #333333;
+    margin-left: 40px;
+}
 
 @media only screen and (max-width: 770px) {
     
