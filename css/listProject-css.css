@@ -64,9 +64,6 @@
     padding: 20px;
     background-color: rgba(1, 106, 114, 0.089);
 }
-.listProject-filter .filter-btn-checkbox{
-    display: none;
-}
 .listProject-filter .filter-btn{
     padding: 5px 20px;
     background-color: var(--main-color);
@@ -101,7 +98,7 @@
 }
 @media only screen and (max-width: 770px) {
     
-    /* Search Bar Respoiveness */
+    /* Search Bar Responsiveness */
     .projectSearchBar form input:first-child{
         width: 50vw;
     }
@@ -114,13 +111,14 @@
     .listProject-filter{
         background-color: white;
     }
-    .listProject-filter .filter-btn{
+    .listProject-filter form h1{
         margin-left: 0;
-        font-size: 16px;
+        font-size: 1.5rem;
         cursor: pointer;
-    }
-    .listProject-filter .filter-btn-checkbox{
-        opacity: 0;
+        padding: 5px 10px;
+        background-color: var(--main-color);
+        border-radius: 5px;
+        width: fit-content;
     }
     .listProject-filter{
         position: static;
@@ -130,7 +128,7 @@
         width: 90%;
         border-radius: 10px;
         margin-top: 10px;
-        background-color: rgba(29, 169, 224, 0.548);
+        background-color: rgba(29, 169, 224, 0.507);
         padding: 20px;
     }
     .listProject-filter form input{
@@ -146,8 +144,3 @@
         margin-left: 20px;
     }
 }
-/* @media only screen and (max-width: 320px) {
-    .listProject-filter form{
-        width: 250px;
-    }
-} */
