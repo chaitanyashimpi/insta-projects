@@ -56,7 +56,7 @@
     color: white;
     font-weight: bold;
 }
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 654px) {
     .createProjectContent h1{
         font-size: 1.3rem;
     }
@@ -65,6 +65,6 @@
     }
     .createProjectContent input,
     .createProjectContent textarea{
-        width: 360px;
+        width: 230px;
     }
 }
