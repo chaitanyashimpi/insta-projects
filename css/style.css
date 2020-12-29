@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 :root {
   --main-color: rgb(29,169,224);
@@ -39,7 +40,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Roboto;
 }
 body, html{
   height: 100%;
