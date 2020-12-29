@@ -137,7 +137,6 @@
 }
 .listProjectUserName p{
     color: rgb(88, 88, 88);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 0.8rem;
 }
 .go-to-top-button{
@@ -235,7 +234,6 @@
     }
     h1.listProjecttitle{
         display: inherit;
-        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
         margin-left: 10px;
     }
     .listProjectCard{
@@ -253,7 +251,6 @@
         display: inline;   
     }
     .listProjectUserName h4{
-        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
         padding: 0;
     }
     .allListProject h1{
@@ -268,7 +265,6 @@
     }
     .listProjectUserName p{
         color: rgb(88, 88, 88);
-        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
         font-size: 0.8rem;
     }
     .listProject-profile img{
