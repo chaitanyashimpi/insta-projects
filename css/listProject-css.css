@@ -115,6 +115,9 @@
     margin-top: 20px;
     background-color: #fff;
 }
+.listProjecttitle{
+    display: none;
+}
 .listProject-profile{
     flex-basis: 20%;
     display: flex;
@@ -128,6 +131,14 @@
     border-radius: 50%;
     border: 2px solid var(--main-color);
     margin-bottom: 10px;
+}
+.listProjectUserName{
+    text-align: center;
+}
+.listProjectUserName p{
+    color: rgb(88, 88, 88);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8rem;
 }
 .go-to-top-button{
     display: none;
@@ -215,12 +226,55 @@
         z-index: 10;
         position: relative;
         top: 1rem;
-        margin-left: 20px;
+        background-color: transparent;
+        margin-left: 0;
         margin-bottom: 20px;
+        padding: 0;
+        border-top: 6px solid rgba(182, 181, 181, 0.534);
+        border-radius: 0;
+    }
+    h1.listProjecttitle{
+        display: inherit;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 10px;
     }
     .listProjectCard{
+        margin-top: 0;
         flex-direction: column;
-        padding: 20px;
+        border-bottom: 6px solid rgba(182, 181, 181, 0.534);
+        padding: 10px;
+        border-radius: 0;
+        padding-bottom: 20px;
+    }
+    .listProject-profile{
+        position: relative;
+    }
+    .listProject-profile{
+        display: inline;   
+    }
+    .listProjectUserName h4{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 0;
+    }
+    .allListProject h1{
+        display: none;
+    }
+    .listProjectUserName{
+        position: absolute;
+        text-align: left;
+        line-height: 20px;
+        top: 5px;
+        left: 57px;
+    }
+    .listProjectUserName p{
+        color: rgb(88, 88, 88);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 0.8rem;
+    }
+    .listProject-profile img{
+        width: 13%;
+        padding: 0;
+        margin-bottom: 0;
     }
     .go-to-top-button{
         display: inherit;
