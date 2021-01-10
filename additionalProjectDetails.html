@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/listProject-css.css">
+    <link rel="stylesheet" href="css/createProject-css.css">
+    <link rel="stylesheet" href="css/additionalProjectDetails-css.css">
     <link rel="shortcut icon" href="Images/favicon.png">
 </head>
 <body>
@@ -53,8 +54,26 @@
         </ul>
     </header>
 
-    <section class="listProject">
+    <section class="createProject">
+        <div class="createProjectContent">
+            <h1>Additional Project Details</h1>
+            <form action="">
+                
+                <label for="proDetails">Additional Project Details: </label>
+                <input type="text" name="proDetails" placeholder="Other details">
 
+                <label for="othSkills">Other Work Skills: </label>
+                <textarea rows="10" placeholder="Other work skill if not available in select" name="othSkills"></textarea>
+                
+                <label for="img">Select Images (Select all the images at once)</label>
+                <input type="file" class="proImage" multiple name="img">
+
+                <label for="date">Bid End Date</label>
+                <input type="date" name="date">
+
+                <input type="button" value="Next >>">
+            </form>
+        </div>
     </section>
     <!-- Footer -->
 
