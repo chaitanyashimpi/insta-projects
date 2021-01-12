@@ -1,0 +1,40 @@
+:root {
+    --main-color: rgb(29,169,224);
+    --main-color2: rgb(11, 97, 131);
+}  
+.findContractors{
+    margin-top: 66px;
+    position: relative;
+    height: 100%;
+    padding: 20px 80px;
+}
+#map{
+    position: fixed;
+    width: 55%;
+    height: 60%;
+    background-color: black;
+}
+.findContractorsFilter a.filterButton{
+    font-size: 25px;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 5px 20px;
+    width: fit-content;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    transition: background-color .25s ease-in-out, padding .25s ease-in-out;
+}
+a.filterButton:hover{
+    background-color: rgb(18, 139, 187);
+    padding: 10px 25px;
+}
+.filterFindContractors{
+    position: fixed;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/listProject-css.css">
+    <link rel="stylesheet" href="css/findContractors-css.css">
+    <link rel="shortcut icon" href="Images/favicon.png">
+</head>
+<body>
+    <header>
+        <h2><a href="index.html"><img src="Images/whiteLogo.png" width="35px" alt=""> BidMyProject</a></h2>
+        <input type="checkbox" id="bid-menu">
+        <label for="bid-menu">
+            <i class="fa fa-bars" id="menu-open"></i>
+            <i class="fa fa-times" id="menu-close"></i>
+        </label>
+        <ul>
+            <a href="findContractors.html">
+                <li>Find Contractors</li>
+            </a>
+            <a href="listProject.html">
+                <li>Browse Projects</li>
+            </a>
+            <a href="joinBid.html">
+                <li>Join to Bid Project</li>
+            </a>
+            <a href="createProject.html">
+                <li>Open New Project</li>
+            </a>
+            <a href="profile.html">
+                <li>Profile</li>
+            </a>
+            <a href="#logout">
+                <li>Logout</li>
+            </a>
+            <li> 
+                <label for="drop" class="toggle">Welcome, Milind <i class="fa fa-user-circle"></i></label>
+                <input type="checkbox" id="drop">
+                <ul>
+                    <a href="profile.html">
+                        <li>Profile</li>
+                    </a>
+                    <a href="#logout">
+                        <li>Logout</li>
+                    </a>
+                </ul>
+            </li>
+            
+        </ul>
+    </header>
+
+    <section class="findContractors">
+        <div id="map"></div>
+        <div class="projectSearchFindContractors">
+            <div class="findContractorsFilter">
+                <a href="#" class="filterButton">
+                    Filter
+                </a>
+                <div class="filterFindContractors">
+                    <form action="">
+                        <h1>Filter</h1>
+                        <p>
+                            <label for="status">Status: </label>
+                            <select name="status">
+                                <option value="Status" disabled selected>Select...</option>
+                                <option value="Open">Open</option>
+                                <option value="Close">Close</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="miles">Project in Miles: </label>
+                            <input type="number" name="miles" placeholder="Min" min="0">
+                            <input type="number" placeholder="Max" name="miles" min="0">
+                        </p>
+                        <p>
+                            <label for="budget">Budget: </label>
+                            <input type="number" name="miles" placeholder="Min" min="0">
+                            <input type="number" placeholder="Max" name="miles" min="0">
+                        </p>
+                        <p>
+                            <label for="work-types">WorkType: </label>
+                            <select name="work-types">
+                                <option value="Select..." disabled selected>Select...</option>
+                                <option value="Worktype1">Worktype1</option>
+                                <option value="Worktype2">Worktype2</option>
+                            </select>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="findContractorsProject">
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <footer>
+        <div class="top-footer">
+            <div class="foot-common">
+                <h2>Quick Links</h2>
+                <h3><a href="#">Find Contractors</a></h3>
+                <h3><a href="#">Browse Projects</a></h3>
+                <h3><a href="#">Join to Bid Projects</a></h3>
+                <h3><a href="#">Open New Projects</a></h3>
+            </div>
+            <div class="foot-common">
+                <h2>Support</h2>
+                <h3><a href="#">Pricing</a></h3>
+                <h3><a href="#">Documentation</a></h3>
+                <h3><a href="#">Call Us</a></h3>
+                <h3><a href="#">Email</a></h3>
+            </div>
+            <div class="foot-common">
+                <h2>Company</h2>
+                <h3><a href="#">About Us</a></h3>
+                <h3><a href="#">How it Works</a></h3>
+                <h3><a href="#">Sitemap</a></h3>
+                <h3><a href="#">News</a></h3>
+            </div>
+            <div class="foot-common">
+                <h2>Legal</h2>
+                <h3><a href="#">Privacy Policy</a></h3>
+                <h3><a href="#">Terms and Conditions</a></h3>
+                <h3><a href="#">Copyright</a></h3>
+                <h3><a href="#">Code of Conduct</a></h3>
+                <h3><a href="#">Contractor Plans</a></h3>
+            </div>
+            <div class="foot-common">
+                <h2>Country & Language</h2>
+                <form>
+                    <select name="" id="country">
+                        <option value="Country" disabled id="country"><span class="fa fa-globe"></span> Country</option>
+                        <option value="America" selected id="country">America</option>
+                        <option value="Canada" id="country">Canada</option>
+                    </select>
+                    <select name="" id="language">
+                        <option value="Language" disabled id="language"><span class="fa fa-language"></span> Language</option>
+                        <option value="ENGLISH" selected id="language">English</option>
+                        <option value="SPANISH" id="language">Spanish</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </footer>
+        <div class="bottom-footer">
+            <div class="bottom-footer-content">
+                <div class="social-foot">
+                    <a href="#" class="ri-facebook-box-fill"></a>
+                    <a href="#" class="ri-twitter-fill"></a>
+                    <a href="#" class="ri-instagram-fill"></a>
+                    <a href="#" class="ri-linkedin-box-fill"></a>
+                    <a href="#" class="ri-youtube-fill"></a>
+                </div>
+                <p><span>&copy;</span> BidMyProject, Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+</body>
+</html>
