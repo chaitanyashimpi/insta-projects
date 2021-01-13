@@ -102,6 +102,9 @@
     height: 650px;
 
 }
+#filterss{
+    opacity: 0;
+}
 .findContractorsProject .findProject{
     display: flex;
     margin-bottom: 20px;
@@ -151,14 +154,44 @@
 }
 
 @media only screen and (max-width: 1024px){
+    .findContractors{
+        height: 100%;
+    }
     .findContractorsProject h2{
         margin-left: 60px;
         font-size: 18px;
     }
-    .findContractorsFilter #filterss{
-        opacity: 1;
-    }
     .filterFindContractors{
         left: 70%;
+    }
+}
+@media only screen and (max-width: 936px){
+    
+    #map{
+        position: inherit;
+        width: 100%;
+        height: 85vh;
+        margin-bottom: 50px;
+    }
+    .findContractors{
+        padding: 0;
+        height: 300%;
+    }
+    .findContractorsProject{
+        position: inherit;
+        width: 100%;
+        margin: 0 10px;
+    }
+    .allFindProjects{
+        height: 195vh;
+        overflow: auto;
+    }
+    .filterButton{
+        position: inherit;
+    }
+    .findContractorsFilter{
+        right: 0;
+        top: 50%;
+        width: 100%;
     }
 }
