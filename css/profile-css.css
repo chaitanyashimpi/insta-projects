@@ -125,7 +125,6 @@
 #side-nav ul a li{
     width: fit-content;
     padding: 0 30px;
-    font-size: .5rem;
 }
 .profileMainContent{
     flex-basis: 100%;
