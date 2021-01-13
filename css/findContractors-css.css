@@ -188,6 +188,9 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+    .allFindProjects .findProject{
+        margin-left: 20px;
+    }
     .filterButton{
         position: inherit;
     }
