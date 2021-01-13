@@ -175,12 +175,12 @@
     }
     .findContractors{
         padding: 0;
-        height: 150%;
+        height: 160%;
     }
     .findContractorsProject{
         position: inherit;
         width: 100%;
-        height: fit-content;
+        height: max-content;
     }
     .allFindProjects{
         height: fit-content;
