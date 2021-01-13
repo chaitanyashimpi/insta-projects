@@ -14,31 +14,35 @@
     height: 85%;
     background-color: black;
 }
-.findContractorsFilter .filterButton{
-    font-size: 25px;
-    background-color: var(--main-color);
+.filterButton{
+    float: right;
+    position: absolute; 
+    top: 20px;
+    right: 50px;
+    z-index: 20;
     color: #fff;
     padding: 5px 20px;
-    width: fit-content;
-    position: absolute;
-    top: 20px;
-    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--main-color2);
     border-radius: 5px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
     cursor: pointer;
-    text-transform: uppercase;
     transition: background-color, font-weight .25s ease-in-out, padding .25s ease-in-out;
 }
-.filterButton:hover{
-    background-color: rgb(18, 139, 187);
-    padding: 10px 25px;
-    font-weight: bold;
+
+#filterss:checked ~ .filterFindContractors{
+    display: inherit;
+    opacity: 1;
 }
+
+.filterButton:hover{
+    background-color: rgba(18, 131, 175, 0.699);
+    padding: 8px 23px;
+    font-weight: bold;
+} 
 
 .filterFindContractors{
     position: fixed;
-    /* box-shadow: 0 0 25px 25px rgba(11, 97, 131, 0.801); */
     top: 40%;
     z-index: 10;
     left: 80%;
@@ -49,19 +53,7 @@
     display: none;
     opacity: 0;
 }
-#filterss{
-    position: absolute;
-    top:20;
-    height: 40px;
-    right: 0;
-    width: 230px;
-    opacity: 0;
-    cursor: pointer;
-}
-#filterss:checked ~ .filterFindContractors{
-    display: inherit;
-    opacity: 1;
-}
+
 .filterFindContractors .filterButton input{
     position: relative;
     top: 0;
@@ -156,4 +148,17 @@
     flex-direction: row;
     justify-content: space-between;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 1024px){
+    .findContractorsProject h2{
+        margin-left: 60px;
+        font-size: 18px;
+    }
+    .findContractorsFilter #filterss{
+        opacity: 1;
+    }
+    .filterFindContractors{
+        left: 70%;
+    }
 }
