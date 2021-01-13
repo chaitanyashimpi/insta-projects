@@ -1,0 +1,131 @@
+:root {
+    --main-color: rgb(29,169,224);
+    --main-color2: rgb(11, 97, 131);
+}
+.profile{
+    position: relative;
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+    width: 100%;
+}
+.profilePage{
+    width: 60%;
+}
+.profilePage h1{
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    font-size:200%;
+    text-transform: uppercase;
+}
+.profileContent{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#side-nav {
+    width: 250px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    flex-basis: 24%;
+}
+
+#side-nav ul {
+    padding: 20px 0 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#side-nav h2 {
+    font-size: 1.6rem;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+#side-nav ul a li {
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#side-nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#side-nav ul li:active{
+    font-weight: 600;
+    color: black;
+    border-left: 4px solid red;
+}
+
+#side-nav ul a li:hover {
+    background-color: rgba(51, 51, 51, 0.582);
+}
+
+/* Profile Page Content Comman CSS*/
+
+.profileMainContent{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.116);
+    flex-basis: 69%;
+    margin-left: 2.56%;
+    border-radius: 10px;
+    padding: 20px 20px 10px;
+
+}
+
+
+/* Tablet View */
+@media only screen and (max-width: 1029px) {
+.profilePage h1{
+    font-size: 20px;
+}
+.profilePage{
+    width: 90%;
+}
+#side-nav{
+    position: relative;
+    width: 100%;
+}
+#side-nav ul h2{
+    display: none;
+}
+#side-nav ul{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+    /* width: 100; */
+}
+#side-nav ul a li{
+    width: fit-content;
+    padding: 0 30px;
+}
+.profileMainContent{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+}
+}
+
+/* Mobile View */
+@media only screen and (max-width: 425px) {
+    
+}
+
+@media only screen and (max-width: 375px) {
+    
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
