@@ -237,6 +237,7 @@
         border-bottom: 2px solid var(--main-color);
         font-size: 10px;
         line-height: 22px;
+        background-color: green;
     }
     .profileMainContentExtraInsights{
         flex-basis: 100%;
