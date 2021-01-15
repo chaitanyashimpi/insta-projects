@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Edit Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile-css.css">
+    <link rel="stylesheet" href="css/createProject-css.css">
     <link rel="stylesheet" href="css/editProfile-css.css">
     <link rel="shortcut icon" href="Images/favicon.png">
 </head>
@@ -98,54 +100,26 @@
                     </div>
                 <div class="profileMainContent"> <!-- Donot Change CSS of this (Its a Comman CSS) -->
                     <div class="mainContent">
-                        <h2>~~ Your Profile ~~</h2>
+                        <h2>~~ Edit Profile ~~</h2>
                     </div>
-                    <div class="profileMainContentArea">
-                        <div class="profileMainContentAreaImage">
-                            <img src="/Images/Users/user1.png" alt="">
-                        </div>
-                        <div class="profileMainContentAreaDetails">
-                            <h1>Chaitanya Shimpi</h1>
-                            <p>Web Developer and Designer</p>
-                            <div class="rating">
-                                <span>&#9733</span>
-                                <span>&#9733</span>
-                                <span>&#9733</span>
-                                <span>&#9734</span>
-                                <span>&#9734</span>
-                            </div>
-                            <p><strong>Country:</strong> INDIA</p>
-                            <p><strong>Since:</strong> Dec 2020</p>
-                        </div>
+                    <div class="profileMainContentEdit">
+                        <h1>Your Profile Information</h1>
                     </div>
-                    <div class="profileMainContentExtra">
-                        <div class="profileMainContentExtraInsights">
-                            <h2>Insights</h2>
-                            <div class="insight">
-                                <div class="insightReviews">
-                                    <span>3</span>
-                                    <p>Reviews</p>
-                                </div>
-                                <div class="insightBids">
-                                    <span>2</span>
-                                    <p>Total Bids</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="profileMainContentExtraDetails">
-                            <p>
-                                <p>User ID:</p>
-                                <span>chaitanyashimpi2001@gmail.com</span>
-                            </p>
-                            <p>
-                                <p>Phone Number:</p>
-                                <span>+91 9876543210</span>
-                            </p>
-                            <p>
-                                <p>Profession:</p>
-                                <span>Web Developer</span>
-                            </p>
-                        </div>
+                    <div class="createProjectContent">
+                        <h1>Create a Project</h1>
+                        <form action="">
+                            
+                            <label for="title">Project Title: </label>
+                            <input type="text" id="title" placeholder="Give a Project Name">
+            
+                            <label for="desc">Project Description: </label>
+                            <textarea id="desc" rows="10" placeholder="Tell Us about your Project"></textarea>
+                            
+                            <label for="phno">Phone Number</label>
+                            <input type="tel" name="" id="phno" placeholder="Phone Number">
+            
+                            <input type="submit" value="Next >>" style="cursor: pointer;">
+                        </form>
                     </div>
                 </div>
             </div>
