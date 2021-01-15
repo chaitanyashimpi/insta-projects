@@ -194,8 +194,15 @@
     flex-basis: 100%;
     margin-left: 0;
     margin-top: 15px;
+    height: fit-content;
 }
-
+footer, .bottom-footer{
+    display: none;
+}
+#side-nav ul a li{
+    font-size: 12px;
+    font-weight: bold;
+}
 
 }
 
@@ -226,7 +233,7 @@
     .profileMainContentExtra{
         flex-direction: column-reverse;
         padding: 0 20px;
-        
+        padding-bottom: 20px;
     }
     .profileMainContentExtraDetails{
         padding-left: 0;
@@ -237,7 +244,6 @@
         border-bottom: 2px solid var(--main-color);
         font-size: 10px;
         line-height: 22px;
-        background-color: green;
     }
     .profileMainContentExtraInsights{
         flex-basis: 100%;
@@ -253,10 +259,15 @@
     .mainContent h2{
         font-size: 18px;
     }
-    .profileMainContentExtraDetails {
-
+    .insight span{
+        font-size: 22px;
     }
-
+    .insight{
+        margin-top: 15px;
+    }
+    .insight p{
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
