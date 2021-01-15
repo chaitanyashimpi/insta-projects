@@ -32,7 +32,8 @@
     font-size: 15px;
 }
 .profileMainContentEdit span{
-    margin-left: 50%;
+    display: flex;
+    justify-content: center;
 }
 input.submitBtn{
     background-color: var(--main-color);
@@ -49,5 +50,8 @@ input.submitBtn{
 @media only screen and (max-width: 688px) {
     .profileMainContentEdit h2{
         font-size: 15px;
+    }
+    .profileMainContent{
+        height: 550px;
     }
 }
