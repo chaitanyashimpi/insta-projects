@@ -167,42 +167,51 @@
 
 /* Tablet View */
 @media only screen and (max-width: 1029px) {
-.profilePage h1.mainHeading{
-    font-size: 20px;
-}
-.profilePage{
-    width: 90%;
-}
-#side-nav{
-    position: relative;
-    width: 100%;
-}
-#side-nav ul h2{
-    display: none;
-}
-#side-nav ul{
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow: auto;
-    /* width: 100; */
-}
-#side-nav ul a li{
-    width: fit-content;
-    padding: 0 30px;
-}
-.profileMainContent{
-    flex-basis: 100%;
-    margin-left: 0;
-    margin-top: 15px;
-    height: fit-content;
-}
-footer, .bottom-footer{
-    display: none;
-}
-#side-nav ul a li{
-    font-size: 12px;
-    font-weight: bold;
-}
+    .profilePage h1.mainHeading{
+        font-size: 20px;
+    }
+    .profilePage{
+        width: 90%;
+    }
+    #side-nav{
+        position: relative;
+        width: 100%;
+    }
+    #side-nav ul h2{
+        display: none;
+    }
+    #side-nav ul{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+        /* width: 100; */
+    }
+    #side-nav ul a li{
+        width: fit-content;
+        padding: 0 30px;
+    }
+    .profileMainContent{
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+        height: fit-content;
+    }
+    footer, .bottom-footer{
+        display: none;
+    }
+    #side-nav ul a li{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #side-nav ul li:active{
+        font-weight: auto;
+        color: white;
+        border-left: 0;
+    }
+    
+    #side-nav ul a li:hover {
+        background-color: transparent;
+    }
 
 }
 
