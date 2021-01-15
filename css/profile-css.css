@@ -234,6 +234,9 @@
         height: 455px;
 
     }
+    .profileContent{
+        margin-top: 20px;
+    }
     .editProfile{
         margin-top: 10px;
     }
@@ -293,6 +296,10 @@
     }
     .insight span{
         font-size: 22px;
+    }
+    .profilePage h1.mainHeading{
+        font-size: 18px;
+        padding: 20px 0;
     }
     .insight{
         margin-top: 15px;

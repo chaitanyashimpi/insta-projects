@@ -48,6 +48,9 @@ input.submitBtn{
 }
 
 @media only screen and (max-width: 688px) {
+    .profile{
+        height: 140%;
+    }
     .profileMainContentEdit h2{
         font-size: 15px;
     }
