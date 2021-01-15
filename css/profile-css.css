@@ -208,12 +208,36 @@
     .profileMainContentAreaDetails{
         line-height: 25px;
     }
+    .profileMainContentArea{
+        padding-bottom: 10px;
+        margin: 20px;
+        margin-bottom: 0;
+    }
     .profileMainContentAreaDetails h1{
         font-size: 20px;
     }
     .profileMainContentAreaDetails p{
         font-size: 14px;
         letter-spacing: 0;
+    }
+    .profileMainContentExtra{
+        flex-direction: column-reverse;
+    }
+    .profileMainContentExtraDetails{
+        padding-left: 0;
+        flex-basis: 100%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        border-bottom: 2px solid var(--main-color);
+        padding-bottom: ;
+    }
+    .profileMainContentExtraInsights{
+        flex-basis: 100%;
+        padding-top: 10px;
+    }
+    .profileMainContentExtraInsights h2{
+        font-size: 15px;
     }
 }
 
