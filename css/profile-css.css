@@ -164,9 +164,18 @@
 .insight span{
     font-size: 32px;
 }
-.profileMainContentExtra{
-}
 
+.editProfile{
+ text-align: center;
+ margin-top: 30px;
+}
+.editProfile a{
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 25px 5px;
+    font-weight: bold;
+}
 
 /* Tablet View */
 @media only screen and (max-width: 1029px) {
@@ -220,6 +229,17 @@
 
 /* Mobile View */
 @media only screen and (max-width: 688px) {
+    .profileMainContent{
+        overflow:inherit;
+        height: 455px;
+
+    }
+    .editProfile{
+        margin-top: 10px;
+    }
+    .editProfile a{
+        font-size: 15px;
+    }
     .profileMainContentAreaImage img{
         width: 100px;
         border: 2px solid var(--main-color2);
