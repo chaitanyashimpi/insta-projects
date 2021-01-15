@@ -14,7 +14,7 @@
 .profilePage{
     width: 60%;
 }
-.profilePage h1{
+.profilePage h1.mainHeading{
     text-align: center;
     padding: 30px 0;
     width: 100%;
@@ -80,11 +80,9 @@
     flex-basis: 73%;
     margin-left: 2.56%;
     border-radius: 10px;
-    /* padding: 20px 20px 10px; */
+    height: 650px;
+    overflow: auto;
 }
-
-/* Profile.html Custom CSS */
-
 .mainContent h2{
     text-align: center;
     background-color: var(--main-color);
@@ -93,17 +91,83 @@
     color: #fff;
     border-top-right-radius: 10px;
 }
+/* Profile.html Custom CSS */
 
+.profileMainContentArea{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--main-color);
+}
+.profileMainContentAreaImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileMainContentAreaImage img{
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgba(29, 169, 224, 0.548);
+    border: 5px solid var(--main-color2);
+}
+.profileMainContentAreaDetails{
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    line-height: 30px;
+    flex-direction: column;
+}
+.profileMainContentAreaDetails h1{
+    color: var(--main-color);
+}
+.profileMainContentAreaDetails p{
+    letter-spacing: 1px;
+}
+.profileMainContentAreaDetails .rating span{
+    font-size: 30px;
+}
+.rating span{
+    color: var(--main-color);
+}
+.profileMainContentExtra{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px 60px;
+    padding-bottom: 0;
+    padding-left: 30px;
+}
+.profileMainContentExtraInsights{
+    flex-basis: 50%;
+}
+.profileMainContentExtraDetails{
+    flex-basis: 50%;
+    line-height: 40px;
+    border-left: 2px solid var(--main-color);
+    padding-left: 40px;
+}
+.profileMainContentExtraDetails p+p{
+    display: inline;
+    color: var(--main-color);
+    font-weight: bold;
+}
 
-
-
-
-
-
+.profileMainContentExtraInsights h2{
+    font-weight: 400;
+}
+.insight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.insight span{
+    font-size: 32px;
+}
 
 /* Tablet View */
 @media only screen and (max-width: 1029px) {
-.profilePage h1{
+.profilePage h1.mainHeading{
     font-size: 20px;
 }
 .profilePage{
@@ -131,11 +195,26 @@
     margin-left: 0;
     margin-top: 15px;
 }
+
+
 }
 
 /* Mobile View */
-@media only screen and (max-width: 425px) {
-    
+@media only screen and (max-width: 688px) {
+    .profileMainContentAreaImage img{
+        width: 100px;
+        border: 2px solid var(--main-color2);
+    }
+    .profileMainContentAreaDetails{
+        line-height: 25px;
+    }
+    .profileMainContentAreaDetails h1{
+        font-size: 20px;
+    }
+    .profileMainContentAreaDetails p{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
 }
 
 @media only screen and (max-width: 375px) {
