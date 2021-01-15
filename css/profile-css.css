@@ -164,6 +164,9 @@
 .insight span{
     font-size: 32px;
 }
+.profileMainContentExtra{
+}
+
 
 /* Tablet View */
 @media only screen and (max-width: 1029px) {
