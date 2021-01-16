@@ -2,10 +2,22 @@
     --main-color: rgb(29,169,224);
     --main-color2: rgb(11, 97, 131);
 }
-.profileMainContentProject{
-    margin: 20px;
+a.impBtn{
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
 }
-.profileMainContentProject h2{
-    color: var(--main-color);
-    border-bottom: 1px solid var(--main-color);
+@media only screen and (max-width: 1242px){
+    a.impBtn{
+        padding: 50x 10px;
+        font-size: 14px;
+        /* display: block; */
+        /* margin-top: 50px; */
+    }
+    .breaker{
+        display: block;
+        margin-bottom: 15px;
+    }
 }
