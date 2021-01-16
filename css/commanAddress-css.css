@@ -18,12 +18,12 @@ textarea{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
-.add .add{
+.add .addSymbol{
     font-size: 80px;
     font-weight: 100;
     color: rgba(128, 128, 128, 0.356);
+
 }
 .add span{
     color: grey;
@@ -47,6 +47,9 @@ textarea{
     border-radius: 10px;
     border: 1px solid rgba(153, 153, 153, 0.315);
     margin-bottom: 20px;
+}
+.addressSlot.add{
+    justify-content: center;
 }
 .addressSlot p,
 .addressSlot p strong{
