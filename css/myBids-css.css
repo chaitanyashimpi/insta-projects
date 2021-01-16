@@ -1,0 +1,12 @@
+@media only screen and (max-width: 824px){
+    .profilePage{
+        width: 100%;
+    }
+    #side-nav,
+    .profileMainContent,
+    .mainContent h2,
+    .profilePage h1.mainHeading
+    {
+        border-radius: 0;
+    }
+}

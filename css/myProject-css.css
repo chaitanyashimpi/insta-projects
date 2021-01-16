@@ -1,0 +1,11 @@
+:root {
+    --main-color: rgb(29,169,224);
+    --main-color2: rgb(11, 97, 131);
+}
+.profileMainContentProject{
+    margin: 20px;
+}
+.profileMainContentProject h2{
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
