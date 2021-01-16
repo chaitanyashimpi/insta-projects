@@ -2,6 +2,9 @@
     --main-color: rgb(29,169,224);
     --main-color2: rgb(11, 97, 131);
 }
+body{
+    height: auto;
+}
 .profile{
     position: relative;
     margin-top: 62px;

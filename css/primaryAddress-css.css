@@ -82,4 +82,7 @@ textarea{
     .profileMainContent{
         height: 100%;
     }
+    .profile{
+        height: 100%;
+    }
 }
