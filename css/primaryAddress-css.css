@@ -32,14 +32,18 @@ textarea{
 }
 .defaultAddress{
     color: gray;
-
+    border-bottom: 1.5px solid gray;
 }
+
 .addressSlot{
     height: 180px;
     flex-basis: 42%;
     margin: 0 10px;
     padding: 10px 15px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 10px;
     border: 1px solid rgba(153, 153, 153, 0.315);
     margin-bottom: 20px;
@@ -49,6 +53,9 @@ textarea{
     font-size: 13px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 10px;
+}
+.addressSlot p strong{
+    font-size: 16px;
 }
 .modifyAddress{
     bottom: 0;
