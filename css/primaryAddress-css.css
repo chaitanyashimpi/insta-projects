@@ -72,4 +72,7 @@ textarea{
     .addressSlot{
         flex-basis: 95%;
     }
+    .profileMainContent{
+        height: 100%;
+    }
 }
