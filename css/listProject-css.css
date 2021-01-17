@@ -209,6 +209,7 @@
     }
     .listProject-filter{
         position: static;
+        border: none;
     }
     .listProject-filter form{
         position: static;
