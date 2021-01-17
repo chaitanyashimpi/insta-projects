@@ -61,7 +61,8 @@
     position: fixed;
     border-radius: 20px;
     padding: 20px;
-    background-color: rgba(1, 106, 114, 0.089);
+    /* background-color: rgba(1, 106, 114, 0.089); */
+    border: 1px solid rgba(128, 128, 128, 0.445);
 }
 .listProject-filter h1{
     padding: 5px 20px;
@@ -100,7 +101,8 @@
     height: max-content;
     color: var(--main-color);
     margin-bottom: 200px;
-    background-color: rgba(1, 106, 114, 0.089);
+    /* background-color: rgba(1, 106, 114, 0.089); */
+    border: 1px solid rgba(182, 181, 181, 0.534);
     padding: 20px;
     border-radius: 20px;
 }
@@ -114,6 +116,7 @@
     padding: 30px;
     margin-top: 20px;
     background-color: #fff;
+    border: 1px solid rgba(182, 181, 181, 0.534);
 }
 .listProjecttitle{
     display: none;

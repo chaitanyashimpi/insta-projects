@@ -68,7 +68,8 @@ textarea{
     color: var(--main-color);
     padding-right: 10px;
 }
-.modifyAddress a:last-child{
+.modifyAddress a:last-child,
+.modifyAddress a:nth-child(2){
     padding-left: 10px;
     border-left: 1px solid var(--main-color);
 }
