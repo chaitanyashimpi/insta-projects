@@ -57,6 +57,19 @@
     position: relative;
     margin: 50px 160px;
 }
+.userProfile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(182, 181, 181, 0.534);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.userProfile img{
+    width: 100px;
+    border-radius: 50%;
+}
 .listProject-filter{
     position: fixed;
     border-radius: 20px;
@@ -195,7 +208,9 @@
         margin: 0 ;
     }
     .listProject-filter{
-        background-color: white;
+        position: static;
+        border: none;
+        /* background-color: white; */
     }
     .listProject-filter form h1{
         margin-left: 0;
@@ -207,16 +222,12 @@
         border-radius: 5px;
         width: fit-content;
     }
-    .listProject-filter{
-        position: static;
-        border: none;
-    }
     .listProject-filter form{
         position: static;
         width: 90%;
         border-radius: 10px;
         margin-top: 10px;
-        background-color: rgba(29, 169, 224, 0.507);
+        /* background-color: rgba(29, 169, 224, 0.507); */
         padding: 20px;
     }
     .listProject-filter form input{
