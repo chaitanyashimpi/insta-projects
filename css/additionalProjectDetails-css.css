@@ -4,10 +4,23 @@
 .createProject{
     height: 80vh;
 }
-.createProjectContent form img{
+.imagePreview{
+    width: 100%;
+}
+.imagePreview img{
     width: 80px;
     height: 80px;
     border: 3px solid #333;
     border-radius: 5px;
 }
-
+@media only screen and (min-width: 871px){
+    .imagePreview{
+        width: 670px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagePreview img{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
