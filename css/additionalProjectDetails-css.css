@@ -2,7 +2,9 @@
     border: none;
 }
 .createProject{
-    height: 80vh;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .imagePreview{
     width: 100%;
@@ -20,14 +22,7 @@
         flex-wrap: wrap;
     }
     .imagePreview img{
-        margin-right: 10px;
+        margin-right: 5px;
         margin-bottom: 10px;
-    }
-}
-@media only screen and (max-width: 1000px){
-    .createProject{
-        height: max-content;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
