@@ -24,8 +24,10 @@
         margin-bottom: 10px;
     }
 }
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 1000px){
     .createProject{
-        height: 160vh;
+        height: max-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
