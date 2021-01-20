@@ -60,16 +60,38 @@
 .userProfile{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     border-bottom: 1px solid rgba(182, 181, 181, 0.534);
     margin-bottom: 10px;
     padding-bottom: 10px;
+    color: var(--main-color);
+}
+
+.userProfile1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(29, 169, 224, 0.5);
+    padding-right: 10px;
+    font-weight: bold;
 }
 .userProfile img{
     width: 100px;
     border-radius: 50%;
 }
+
+.userProfile2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.userProfile2 .rating span{
+    color: var(--main-color);
+    font-size: 25px;
+}
+
 .listProject-filter{
     position: fixed;
     border-radius: 20px;
