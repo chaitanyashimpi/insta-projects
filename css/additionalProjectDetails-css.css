@@ -24,3 +24,8 @@
         margin-bottom: 10px;
     }
 }
+@media only screen and (max-width: 670px){
+    .createProject{
+        height: 160vh;
+    }
+}
