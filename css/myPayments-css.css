@@ -1,8 +1,14 @@
+.address{
+    margin: 0 10px;
+}
 .addressSlot{
     flex-basis: 100%;
+    margin: 10px 0px;
 }
 .address .titleCard{
     width: 100%;
-    margin: 0 10px;
     border-bottom: 1px solid gray;
+}
+.addedCards{
+    width: 100%;
 }
