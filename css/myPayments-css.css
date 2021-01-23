@@ -1,17 +1,24 @@
-.address{
+/* .address{
     margin: 0 10px;
 }
 .addressSlot{
-    flex-basis: 100%;
+    flex-basis: 40%;
     margin: 10px 0px;
+    justify-content: space-between;
+}
+
+
+.addedCards{
+    width: 40%;
+}
+.sm .addressSlot{
+    height: 130px;
 }
 .addressSlot p{
     font-size: 15px;
-}
+} */
 .address .titleCard{
     width: 100%;
     border-bottom: 1px solid gray;
-}
-.addedCards{
-    width: 100%;
+    margin: 10px 20px;
 }

@@ -136,7 +136,8 @@ header ul a:nth-child(6){
 /* Banner */
 .banner{
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.657), rgba(0, 0, 0, 0.61)), url("../Images/banner-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.01)), url("../Images/banner-img.jpg");
+  /* background-image:  url("../Images/banner-img.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,8 +199,46 @@ header ul a:nth-child(6){
   top: 15px;
 }
 
-
-
+/* Banner Form */
+.banner-form{
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.banner-form p{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+.banner-form form input{
+  height: 30px;
+  color: var(--main-color2);
+  padding: 0px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+}
+.banner-form form input::placeholder{
+  color: var(--main-color2);
+}
+.banner-form form input:first-child{
+  width: 275px;
+}
+.banner-form form input:nth-child(2){
+  width: 50px;
+}
+.banner-form form input:nth-child(3){
+  width: 195px;
+}
+.banner-form form input:last-child{
+  width: 150px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* Goto Top Button */
 
 .go-to-top-button{
