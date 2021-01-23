@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Browse Projects</title>
+    <title>Primary Address</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/profile-css.css">
+    <link rel="stylesheet" href="css/editProfile-css.css">
     <link rel="stylesheet" href="css/commanAddress-css.css">
-    <link rel="stylesheet" href="css/myPayments-css.css">
     <link rel="shortcut icon" href="Images/favicon.png">
 </head>
 <body>
@@ -100,87 +100,41 @@
                     </div>
                 <div class="profileMainContent"> <!-- Donot Change CSS of this (Its a Comman CSS) -->
                     <div class="mainContent">
-                        <h2>~~ Your Payment Options ~~</h2>
+                        <h2>~~ Add Payment Gateway ~~</h2>
                     </div>
                     <div class="profileMainContentEdit">
-                        <div class="address">
-                            <!-- This Address is Always default address -->
-                            <a href="myAddPayment.html" class="addressSlot add">
-                                <span class="addSymbol">+</span>
-                                <span>Add Payment Gateway</span>
-                            </a>
-                            <div class="addressSlot">
-                                <p class="defaultAddress">Your Default Payment Preference</p>
-                                <p><strong>Name: Chaitanya Shimpi</strong></p>
-                                <p><em>State Bank of India</em>  Debit Card ending in <strong>1234</strong></p>
-                                <p><strong>Expiry Date:</strong> 11/2022</p>
-                                <div class="modifyAddress">
-                                    <a href="#">Edit</a>
-                                    <a href="#">Remove</a>
-                                </div>
-                            </div>
-                            
-                            <div class="paypalPayment">
-                                <!-- <p class="defaultAddress">Your Default PayPal Preference</p> -->
-                                <p><em>PayPal</em></p>
-                                <p>userpaypal@paypal.com</p>
-                                <div class="modifyAddress">
-                                    <a href="#">Edit</a>
-                                    <a href="#">Remove</a>
-                                    <a href="#">Set as Default</a>
-                                </div>
-                                <!-- <a href="#">Pay with Paypal</a> -->
-                            </div>
-                            <div class="titleCard">
-                                <p>Your Saved Debit Cards and Credit Cards</p>
-                            </div>
-                            
-                                <div class="addressSlot">
-                                    <p><strong>Name: Chaitanya Shimpi</strong></p>
-                                    <p><em>State Bank of India</em>  Debit Card ending in <strong>1234</strong></p>
-                                    <p><strong>Expiry Date:</strong> 11/2022</p>
-                                    <div class="modifyAddress">
-                                        <a href="#">Edit</a>
-                                        <a href="#">Remove</a>
-                                        <a href="#">Set as Default</a>
-                                    </div>
-                                </div>
-                                <div class="addressSlot">
-                                    <p><strong>Name: Chaitanya Shimpi</strong></p>
-                                    <p><em>State Bank of India</em>  Debit Card ending in <strong>1234</strong></p>
-                                    <p><strong>Expiry Date:</strong> 11/2022</p>
-                                    <div class="modifyAddress">
-                                        <a href="#">Edit</a>
-                                        <a href="#">Remove</a>
-                                        <a href="#">Set as Default</a>
-                                    </div>
-                                </div>
-                                
-                                <div class="titleCard">
-                                    <p>Your PayPal Accounts</p>
-                                </div>
-                                
-                                    <div class="addressSlot">
-                                        <p><strong>Name: Chaitanya Shimpi</strong></p>
-                                        <p><em>State Bank of India</em>  Debit Card ending in <strong>1234</strong></p>
-                                        <p><strong>Expiry Date:</strong> 11/2022</p>
-                                        <div class="modifyAddress">
-                                            <a href="#">Edit</a>
-                                            <a href="#">Remove</a>
-                                            <a href="#">Set as Default</a>
-                                        </div>
-                                    </div>
-                                    <div class="addressSlot">
-                                        <p><strong>Name: Chaitanya Shimpi</strong></p>
-                                        <p><em>State Bank of India</em>  Debit Card ending in <strong>1234</strong></p>
-                                        <p><strong>Expiry Date:</strong> 11/2022</p>
-                                        <div class="modifyAddress">
-                                            <a href="#">Edit</a>
-                                            <a href="#">Remove</a>
-                                            <a href="#">Set as Default</a>
-                                        </div>
-                                    </div>
-                        </div>
+                        <h2>Add New Address</h2>
+                        <form>
+                            <p>
+                                <label for="add1">Address:</label>
+                                <textarea name="add1" id="add1" cols="30" rows="3"></textarea>
+                            </p>
+                            <p>
+                                <label for="add2">Address 2:</label>
+                                <textarea name="add2" id="add2" cols="30" rows="3"></textarea>
+                            </p>
+                            <p>
+                                <label for="country">Country:</label>
+                                <input type="text" name="country" id="country">
+                            </p>
+                            <p>
+                                <label for="state">State:</label>
+                                <input type="text" name="state" id="state">
+                            </p>
+                            <p>
+                                <label for="city">City:</label>
+                                <input type="text" name="city" id="city">
+                            </p>
+                            <p>
+                                <label for="zipCode">Zip Code:</label>
+                                <input type="text" name="zipCode" id="zipCode">
+                            </p>
+                            <span>
+                                <span>
+                                    <input type="submit" value="Submit" class="submitBtn">
+                                </span>
+                            </span>
+                        </form>
                     </div>
                 </div>
             </div>

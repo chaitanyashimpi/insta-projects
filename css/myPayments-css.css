@@ -1,24 +1,30 @@
-/* .address{
-    margin: 0 10px;
-}
-.addressSlot{
-    flex-basis: 40%;
-    margin: 10px 0px;
-    justify-content: space-between;
-}
 
-
-.addedCards{
-    width: 40%;
-}
-.sm .addressSlot{
-    height: 130px;
-}
-.addressSlot p{
-    font-size: 15px;
-} */
 .address .titleCard{
     width: 100%;
     border-bottom: 1px solid gray;
     margin: 10px 20px;
+}
+.paypalPayment{
+    width: 100%;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(153, 153, 153, 0.315);
+    padding: 10px 15px;
+}
+.paypalPayment p.defaultAddress{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+}
+.paypalPayment p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.paypalPayment p em{
+    font-size: 15px;
+    font-weight: 900;
+    border-bottom: 1px solid gray;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 3px;
 }
