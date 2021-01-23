@@ -17,14 +17,24 @@
     margin-bottom: 20px;
 }
 .paypalPayment p{
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .paypalPayment p em{
     font-size: 15px;
     font-weight: 900;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
     display: block;
     margin-bottom: 0;
     padding-bottom: 3px;
+}
+.addressSlot.sm{
+    height: max-content;
+}
+.addressSlot.sm p em{
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+    padding-bottom: 3px;
+    font-weight: bold;
 }
