@@ -115,13 +115,13 @@
     margin-bottom: 20px;
     color: var(--main-color2);
 }
-.answer.accCard input:nth-child(2){
+.answer.acCard input:nth-child(2){
     width: 57.5%;
 }
-.answer.accCard input:nth-child(3){
+.answer.acCard input:nth-child(3){
     width: 15%;
 }
-.answer input:nth-child(4){
+.answer.acCard input:nth-child(4){
     width: 10%;
 }
 
@@ -138,13 +138,13 @@
     .profileMainContent{
         height: fit-content;
     }
-    .answer.accCard input:nth-child(2){
+    .answer.acCard input:nth-child(2){
         width: 95%;
     }
-    .answer.accCard input:nth-child(3){
+    .answer.acCard input:nth-child(3){
         width: 40%;
     }
-    .answer input:nth-child(4){
+    .answer.acCard input:nth-child(4){
         width: 40%;
     }
     .answer form input{
