@@ -113,11 +113,12 @@
     border-radius: 5px;
     border: 1px solid gray;
     margin-bottom: 20px;
+    color: var(--main-color2);
 }
-.answer input:nth-child(2){
+.answer.accCard input:nth-child(2){
     width: 57.5%;
 }
-.answer input:nth-child(3){
+.answer.accCard input:nth-child(3){
     width: 15%;
 }
 .answer input:nth-child(4){
@@ -134,13 +135,16 @@
 }
 
 @media only screen and (max-width: 600px){
-    .answer input:nth-child(2){
+    .answer.accCard input:nth-child(2){
         width: 95%;
     }
-    .answer input:nth-child(3){
+    .answer.accCard input:nth-child(3){
         width: 40%;
     }
     .answer input:nth-child(4){
         width: 40%;
+    }
+    .answer form input{
+        padding: 0 5px;
     }
 }
