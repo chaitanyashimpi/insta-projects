@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/profile-css.css">
     <link rel="stylesheet" href="css/editProfile-css.css">
-    <link rel="stylesheet" href="css/commanAddress-css.css">
+    <link rel="stylesheet" href="css/myPayments-css.css">
     <link rel="shortcut icon" href="Images/favicon.png">
 </head>
 <body>
@@ -102,39 +102,51 @@
                     <div class="mainContent">
                         <h2>~~ Add Payment Gateway ~~</h2>
                     </div>
-                    <div class="profileMainContentEdit">
-                        <h2>Add New Address</h2>
-                        <form>
-                            <p>
-                                <label for="add1">Address:</label>
-                                <textarea name="add1" id="add1" cols="30" rows="3"></textarea>
-                            </p>
-                            <p>
-                                <label for="add2">Address 2:</label>
-                                <textarea name="add2" id="add2" cols="30" rows="3"></textarea>
-                            </p>
-                            <p>
-                                <label for="country">Country:</label>
-                                <input type="text" name="country" id="country">
-                            </p>
-                            <p>
-                                <label for="state">State:</label>
-                                <input type="text" name="state" id="state">
-                            </p>
-                            <p>
-                                <label for="city">City:</label>
-                                <input type="text" name="city" id="city">
-                            </p>
-                            <p>
-                                <label for="zipCode">Zip Code:</label>
-                                <input type="text" name="zipCode" id="zipCode">
-                            </p>
-                            <span>
-                                <span>
-                                    <input type="submit" value="Submit" class="submitBtn">
-                                </span>
-                            </span>
-                        </form>
+                    <div class="paymentMethod">
+                        <div class="accordian">
+                            <div class="accordian-item" id="question1">
+                                <a class="accordian-link" href="#question1">
+                                    Credit Card or Debit Card
+                                    <i class="ri-add-line"></i>
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <form action="" class="answer">
+                                    <input type="text" placeholder="Enter name on Card">
+                                    <input type="number" placeholder="Enter Card Number">
+                                    <input type="text" placeholder="MM/YYYY">
+                                    <input type="text" placeholder="CVV">
+                                    <input type="submit" value="Enroll Payment">
+                                </form>
+                            </div>
+                            <div class="accordian-item" id="question2">
+                                <a class="accordian-link" href="#question2">
+                                    Credit Card or Debit Card
+                                    <i class="ri-add-line"></i>
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <form action="" class="answer">
+                                    <input type="text" placeholder="Enter name on Card">
+                                    <input type="number" placeholder="Enter Card Number">
+                                    <input type="text" placeholder="MM/YYYY">
+                                    <input type="text" placeholder="CVV">
+                                    <input type="submit" value="Enroll Payment">
+                                </form>
+                            </div>
+                            <div class="accordian-item" id="question3">
+                                <a class="accordian-link" href="#question3">
+                                    Credit Card or Debit Card
+                                    <i class="ri-add-line"></i>
+                                    <i class="ri-subtract-line"></i>
+                                </a>
+                                <form action="" class="answer">
+                                    <input type="text" placeholder="Enter name on Card">
+                                    <input type="number" placeholder="Enter Card Number">
+                                    <input type="text" placeholder="MM/YYYY">
+                                    <input type="text" placeholder="CVV">
+                                    <input type="submit" value="Enroll Payment">
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

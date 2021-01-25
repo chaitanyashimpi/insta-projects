@@ -1,3 +1,7 @@
+:root {
+    --main-color: rgb(29,169,224);
+    --main-color2: rgb(11, 97, 131);
+}
 
 .address .titleCard{
     width: 100%;
@@ -37,4 +41,104 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.342);
     padding-bottom: 3px;
     font-weight: bold;
+}
+
+/* Add Payment */
+
+.paymentMethod{
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.accordian-item{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    box-shadow: .5rem 2px .5rem rgba(29, 169, 224, 0.1);
+}
+.accordian-link{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: var(--main-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.accordian-link i{
+    color: #fff;
+    padding: .5rem;
+}
+
+.accordian-link .ri-subtract-line{
+    display: none;
+    transition: .5px ease-in-out;
+}
+form.answer{
+    max-height: 0;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    background-color: rgb(18, 110, 146);
+    border-radius: 4px;
+    transition: .5s ease-in-out;
+    padding: 1.2rem;
+    display: flex;
+
+}
+
+.accordian-item:target .answer{
+    max-height: max-content;
+    display: inherit;
+}
+
+.accordian-item:target .accordian-link .ri-subtract-line{
+    display: inherit;
+    transition: .5px ease-in-out;
+}
+.accordian-item:target .accordian-link .ri-add-line{
+    display: none;
+    transition: .5px ease-in-out;
+}
+
+form.answer input{
+    width: 95%;
+    padding: 0 15px;
+    font-size: 15px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+form.answer input:nth-child(2){
+    width: 57.5%;
+}
+form.answer input:nth-child(3){
+    width: 15%;
+}
+form.answer input:nth-child(4){
+    width: 10%;
+}
+
+form.answer input:last-child{
+    background-color: #009cde;
+    border: 0;
+    color: #fff;
+    width: max-content;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    form.answer input:nth-child(2){
+        width: 95%;
+    }
+    form.answer input:nth-child(3){
+        width: 40%;
+    }
+    form.answer input:nth-child(4){
+        width: 40%;
+    }
 }
