@@ -108,7 +108,6 @@
 .division{
     display: flex;
     width: 84%;
-    /* background-color: green; */
     justify-content: space-between;
 }
 .division input{
