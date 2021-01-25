@@ -133,6 +133,7 @@
     }
     .contractorSignup{
         padding: 30px 0;
+        width: 95%;
     }
     .contractorSignup h1{
         font-size: 20px;
@@ -172,10 +173,11 @@
     } 
 
     .originalForm input,
-    .originalForm textarea{
-        width: 100%;
-    }
+    .originalForm textarea,
     .division input{
+        width: 93%;
+    }
+    .originalForm input[type="submit"]{
         width: 100%;
     }
 }
