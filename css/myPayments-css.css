@@ -44,7 +44,9 @@
 }
 
 /* Add Payment */
-
+.profile{
+    height: fit-content;
+}
 .paymentMethod{
     padding: 0 15px;
     margin-top: 20px;
@@ -75,19 +77,19 @@
     display: none;
     transition: .5px ease-in-out;
 }
-form.answer{
+.answer{
+    display: none;
     max-height: 0;
     overflow: hidden;
-    display: none;
     position: relative;
     background-color: rgb(18, 110, 146);
     border-radius: 4px;
     transition: .5s ease-in-out;
     padding: 1.2rem;
-    display: flex;
-
 }
-
+/* .answer form{
+    display: flex;
+} */
 .accordian-item:target .answer{
     max-height: max-content;
     display: inherit;
@@ -102,7 +104,7 @@ form.answer{
     transition: .5px ease-in-out;
 }
 
-form.answer input{
+.answer form input{
     width: 95%;
     padding: 0 15px;
     font-size: 15px;
@@ -112,17 +114,17 @@ form.answer input{
     border: 1px solid gray;
     margin-bottom: 20px;
 }
-form.answer input:nth-child(2){
+.answer input:nth-child(2){
     width: 57.5%;
 }
-form.answer input:nth-child(3){
+.answer input:nth-child(3){
     width: 15%;
 }
-form.answer input:nth-child(4){
+.answer input:nth-child(4){
     width: 10%;
 }
 
-form.answer input:last-child{
+.answer input:last-child{
     background-color: #009cde;
     border: 0;
     color: #fff;
@@ -132,13 +134,13 @@ form.answer input:last-child{
 }
 
 @media only screen and (max-width: 600px){
-    form.answer input:nth-child(2){
+    .answer input:nth-child(2){
         width: 95%;
     }
-    form.answer input:nth-child(3){
+    .answer input:nth-child(3){
         width: 40%;
     }
-    form.answer input:nth-child(4){
+    .answer input:nth-child(4){
         width: 40%;
     }
 }
