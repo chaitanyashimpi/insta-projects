@@ -84,8 +84,8 @@
     position: relative;
     background-color: rgb(18, 110, 146);
     border-radius: 4px;
-    transition: .5s ease-in-out;
     padding: 1.2rem;
+    transition: max-height .5s ease-in-out;
 }
 /* .answer form{
     display: flex;
