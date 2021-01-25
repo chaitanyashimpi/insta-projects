@@ -1,0 +1,24 @@
+.joinBid{
+    position: relative;
+    margin-top: 60px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lime;
+    padding: 10px 0;
+}
+.joinBid h1{
+    font-size: 40px;
+}
+.contractorSignup{
+    width: 70%;
+    background-color: cyan;
+    height: 100vh;
+    padding: 30px;
+}
+.signUpForm{
+    display: flex;
+    flex-direction: row;
+
+}
