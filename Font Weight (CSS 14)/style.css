@@ -1,0 +1,40 @@
+@font-face {
+    src: url('https://mdn.mozillademos.org/files/16011/MutatorSans.ttf');
+    font-family:'MutatorSans';
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333;
+}
+.main{
+    text-align: center;
+    width: fit-content;
+    border: 4px solid #fff;
+    padding: 20px 30px;
+}
+label {
+    font: 2rem monospace;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.container {
+    margin-top: 30px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.sample {
+    text-transform: uppercase;
+    font: 3rem 'MutatorSans', sans-serif;
+    color: #f9b52e;
+}
