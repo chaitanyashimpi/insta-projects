@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.poster1{
+    width: 440px;
+    height: 580px;
+    text-transform: uppercase;
+    word-break: break-word;
+    font-size: 3.8rem;
+    line-height: 5rem;
+    padding: 2rem 0;
+    background: linear-gradient(
+        230deg, 
+        rgba(151, 151, 153, 1) 0%,
+        rgba(225, 225, 226, 1) 50%
+        );
+    box-shadow: 0px 0px 20px #6464646c;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.poster1 hr{
+    border: 0;
+    height: 15px;
+    background-color: #333;
+}
+p.poster-content{
+    padding: 1.6rem;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    color: rgba(225, 225, 226, 1);
+    text-shadow: 3px 1px 6px rgba(0, 0, 0, 0.5);
+x}
+p.poster-content span{
+    color: #f9b52e ;
+}
