@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+.poster-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+  .no-me {
+      width: 420px;
+      height: 660px;
+    padding-top: 4.4rem;
+    text-align: center;
+    background: #ffca76;
+    position: relative;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+  }
+  
+  .no-me p {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 5rem;
+    color: #fbd3dc;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    z-index: 20;
+    position: relative;
+  }
+  
+  .no-me p:before {
+    position: absolute;
+    z-index: -1;
+    text-shadow: -1px -1px 0 white, 3px 3px 0 #46b2af, 1px 1px 0 #f2682e,
+      2px 2px 0 #f2682e, 3px 3px 0 #f2682e, 4px 4px 0 #f2682e, 5px 5px 0 #f2682e,
+      6px 6px 0 #f2682e, 7px 7px 0 #f2682e, 8px 8px 0 #f2682e, 9px 9px 0 #f2682e,
+      10px 10px 0 #f2682e, 11px 11px 0 #f2682e, 12px 12px 0 #f2682e,
+      13px 13px 0 #f2682e, 14px 14px 0 #f2682e, 15px 15px 0 #f2682e;
+  }
+  
+  .no-me p:after {
+    position: absolute;
+    transform: translate(-176px, 06px);
+    color: transparent;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    z-index: -2;
+    text-shadow: -1px 1px 0 #f59838, -2px 2px 0 #f59838, -3px 3px 0 #f59838,
+      -4px 4px 0 #f59838, -5px 5px 0 #f59838, -6px 6px 0 #f59838,
+      -7px 7px 0 #f59838, -8px 8px 0 #f59838, -9px 9px 0 #f59838,
+      -10px 10px 0 #f59838, -11px 11px 0 #f59838, -12px 12px 0 #f59838,
+      -13px 13px 0 #f59838, -14px 14px 0 #f59838, -15px 15px 0 #f59838,
+      -16px 16px 0 #f59838, -17px 17px 0 #f59838, -18px 18px 0 #f59838,
+      -19px 19px 0 #f59838, -20px 20px 0 #f59838, -21px 21px 0 #f59838,
+      -22px 22px 0 #f59838, -23px 23px 0 #f59838, -24px 24px 0 #f59838,
+      -25px 25px 0 #f59838, -26px 26px 0 #f59838, -27px 27px 0 #f59838,
+      -28px 28px 0 #f59838, -29px 29px 0 #f59838, -30px 30px 0 #f59838;
+  }
+  
+  .no-me p:first-child:before,
+  .no-me p:first-child:after {
+    content: "It's a";
+  }
+  
+  .no-me p:nth-child(2):before,
+  .no-me p:nth-child(2):after {
+    content: "No";
+  }
+  
+  .no-me p:nth-child(3):before,
+  .no-me p:nth-child(3):after {
+    content: "from";
+  }
+  
+  .no-me p:nth-child(4):before,
+  .no-me p:nth-child(4):after {
+    content: "Me";
+  }
+  
+  .no-me p:nth-child(2) {
+    font-size: 11rem;
+    letter-spacing: -0.04em;
+    margin-bottom: 6px;
+  }
+  
+  .no-me p:nth-child(3) {
+    letter-spacing: -0.02em;
+  }
+  
+  .no-me p:nth-child(4) {
+    font-size: 10rem;
+  }
+  
