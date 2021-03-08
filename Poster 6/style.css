@@ -1,0 +1,91 @@
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body{
+       background-color: rgb(233, 233, 233);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       height: 100vh;
+   }
+   .poster-gallery{
+        width: 520px;
+        background: #fff;
+    }
+  .poster-design .happy-cover {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.25em;
+    line-height: 0.75;
+    font-weight: 800;
+    margin: 0;
+    padding: 2rem 2.5rem;
+  }
+  .happy-cover span {
+    position: relative;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
+    -webkit-filter: saturate(2);
+            filter: saturate(2);
+  }
+  .happy-cover .char4,
+  .happy-cover .char9,
+  .happy-cover .char12,
+  .happy-cover .char18,
+  .happy-cover .char23,
+  .happy-cover .char29 {
+    padding-right: 6rem;
+  }
+  .happy-cover .char33 {
+    margin-right: 2rem;
+  }
+  .happy-cover .char21 {
+    padding-left: 0.5rem;
+  }
+  .happy-cover .char27 {
+    padding-left: 1.5rem;
+  }
+  .happy-cover .char1,
+  .happy-cover .char6,
+  .happy-cover .char11,
+  .happy-cover .char15,
+  .happy-cover .char20,
+  .happy-cover .char25,
+  .happy-cover .char32,
+  .happy-cover .char35 {
+    color: rgba(217, 24, 24, 0.6);
+    z-index: 2;
+  }
+  .happy-cover .char2,
+  .happy-cover .char8,
+  .happy-cover .char10,
+  .happy-cover .char14,
+  .happy-cover .char16,
+  .happy-cover .char19,
+  .happy-cover .char22,
+  .happy-cover .char27,
+  .happy-cover .char31,
+  .happy-cover .char36 {
+    color: rgba(26, 170, 228, 0.6);
+    z-index: 1;
+  }
+  .happy-cover .char3,
+  .happy-cover .char7,
+  .happy-cover .char13,
+  .happy-cover .char21,
+  .happy-cover .char26,
+  .happy-cover .char28,
+  .happy-cover .char30,
+  .happy-cover .char37 {
+    color: rgba(252, 233, 33, 0.6);
+  }
+  .happy-cover .char5,
+  .happy-cover .char17,
+  .happy-cover .char24,
+  .happy-cover .char34 {
+    color: rgba(88, 183, 53, 0.6);
+  }
+  
