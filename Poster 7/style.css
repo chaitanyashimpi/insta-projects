@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.poster{
+  width: 480px;
+  height: 640px;
+}
+.poster-design.cage-dive {
+  background: black;
+}
+
+.cage-dive p {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 20rem;
+  margin: 0;
+  text-align: center;
+  line-height: 0.75;
+  letter-spacing: -0.06em;
+  padding-top: 4rem;
+  background: url("https://live.staticflickr.com/3136/2816657882_881dd961b5_b.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  left: -5px;
+  top: 2rem;
+}
+
+.cage-dive p span {
+  letter-spacing: 0;
+  display: inline-block;
+  padding-left: 10px;
+}
