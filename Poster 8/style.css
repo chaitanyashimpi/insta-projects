@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+html {
+    font-size: 62.5%;
+}
+  
+  body {
+    font-size: 16px;
+    margin: 0;
+    color: #151025;
+    height: 100vh;
+    background-color: gray;
+  }
+.poster-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .poster {
+    box-sizing: border-box;
+    height: 440px;
+    width: 320px;
+    background: white;
+    box-shadow: 2px 2px 6px rgba(15, 10, 25, 0.5);
+    position: relative;
+  }
+.poster-design.mr-foster {
+    background: black;
+    font-family: "Passion One", Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .movie-title {
+    position: relative;
+    top: 7rem;
+    left: 7rem;
+  }
+  
+  .movie-title .right {
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 4rem;
+    line-height: 0.8;
+    transform: skew(30deg) rotate(30deg);
+    position: relative;
+  }
+  
+  .movie-title .right:before {
+    content: "";
+    height: 100%;
+    width: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: black;
+  }
+  
+  .movie-title .left {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 4rem;
+    line-height: 0.8;
+    transform: skew(-30deg) rotate(-30deg);
+    position: absolute;
+    top: -38px;
+    left: -20px;
+    width: 55px;
+    overflow: hidden;
+    z-index: 3;
+  }
+  
+  .movie-directors {
+    color: rgba(255, 255, 255, 0.2);
+    font-family: "Passion One", sans-serif;
+    line-height: 0.8;
+    font-size: 2.4rem;
+    font-weight: bold;
+    position: relative;
+    transform: skew(-40deg);
+  }
+  
+  .movie-directors-box {
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+    transform: rotate(25deg);
+  }
+  
