@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-size: 16px;
+    margin: 0;
+    color: #151025;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .poster {
+    box-sizing: border-box;
+    height: 440px;
+    width: 320px;
+    background: white;
+    box-shadow: 2px 2px 6px rgba(15, 10, 25, 0.5);
+    position: relative;
+  }
+  
+.poster-design.evoma {
+    perspective: 100px;
+    text-align: center;
+    overflow: hidden;
+    background: url("https://images.wisegeek.com/blue-ocean-floor.jpg");
+    background-size: initial;
+  }
+  
+  .evoma p {
+    margin-top: 5rem;
+    font-family: "Muli";
+    font-size: 11rem;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+    transform: rotateX(15deg);
+    color: rgba(15, 10, 25, 0.2);
+    text-shadow: -2px 0 5px rgba(15, 10, 25, 0.8),
+        3px 0 10px rgba(15, 10, 25, 0.8);
+  }
+  
+  .evoma p span {
+    margin-left: -1rem;
+    margin-right: -3rem;
+    font-size: 120%;
+  }
