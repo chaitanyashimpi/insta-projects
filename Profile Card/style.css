@@ -8,7 +8,6 @@
 body {
   background-color: #333;
   display: grid;
-  place-items: center;
   height: 100vh;
 }
 main {
@@ -23,7 +22,7 @@ main {
   padding: 20px 30px;
 }
 .topCard {
-  background-color: orange;
+  background-color: #f9b52e;
   border-radius: 10px 10px 0px 0px;
   color: #fff;
   height: 270px;
@@ -45,10 +44,25 @@ main {
   align-items: center;
   width: 90%;
 }
-.userSocialProfile img {
+.profileImg {
+  position: relative;
+}
+.profileImg img {
   width: 100px;
   border-radius: 100%;
   border: 1px solid #fff;
+}
+.profileImg::after {
+  content: '\2713';
+  position: absolute;
+  display: block;
+  bottom: 15px;
+  text-align: center;
+  right: 5px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: rgb(167, 35, 35);
 }
 
 .userSocialProfile i {
@@ -61,4 +75,22 @@ main {
 }
 .dir {
   margin-top: 60px;
+}
+.btmCard {
+  color: #333;
+}
+.analytics {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.analyticsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.analyticsSection .number {
+  color: #333;
+  font-weight: bolder;
+  font-size: 18px;
 }
