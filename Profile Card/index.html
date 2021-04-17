@@ -2,58 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./discordAvtar.jpg">
-    <title>Profile Card for Website</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">    
+   
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Profile Card</title>
 </head>
 <body>
-    <main>
-        <div class="topCard">
-            <div class="userSocialProfile">
-                <a class="dir" href="https://instagram.com/chaitanyashimpi">
-                    <i class="fab fa-instagram-square"></i>
+    <div class="modal">
+        <img src="./chaitanyashimpi.jpg" alt="">
+        <div class="close"></div>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <div class="hamburger-menu">
+                    <div class="center"></div>
+                </div>
+                <a href="#" class="mail">
+                    <i class="far fa-envelope"></i>
                 </a>
-                <a href="https://linkedin.com/in/chaitanyashimpi">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <p class="profileImg">
-                    <img src="./chaitanyashimpi.jpg" alt="">
-                </p>
-                <a href="https://github.com/chaitanyashimpi">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a class="dir" href="https://discord.gg/dR2TjGKNUM">
-                    <i class="fab fa-discord"></i>
-                </a>
+                <div class="main">
+                    <div class="image">
+                        <div class="hover">
+                            <i class="fas fa-expand fa-2x"></i>
+                        </div>
+                    </div>
+                    <h3 class="name">Chaitanya Shimpi</h3>
+                    <h3 class="sub-name">@chaitanyashimpi</h3>
+                </div>
             </div>
-            <div class="userInfo">
-                <h2>Chaitanya Shimpi</h2>
-                <p>Full Stack Web Developer | Content Creator</p>
-                <p><i class="fas fa-location-arrow"></i> Maharashtra, India</p>
+
+            <div class="content">
+                <div class="left">
+                    <div class="about-container">
+                        <h3 class="title">About</h3>
+                        <p class="text">Lorem Ipsum is simply text of the printing and types industry.</p>
+                    </div>
+                    
+                    <div class="icons-container">
+                        <a href="#" class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-dev"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-medium-m"></i>
+                        </a>
+                    </div>
+                    <div class="buttons-wrap">
+                        <div class="follow-wrap">
+                            <a href="#" class="follow">Follow</a>
+                        </div>
+                        <div class="share-wrap">
+                            <a href="#" class="share">Share</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div>
+                        <h3 class="number">99</h3>
+                        <h3 class="number-title">Posts</h3>
+                    </div>
+                    <div>
+                        <h3 class="number">231</h3>
+                        <h3 class="number-title">Following</h3>
+                    </div>
+                    <div>
+                        <h3 class="number">2.1M</h3>
+                        <h3 class="number-title">Followers</h3>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="btmCard">
-            <div class="analytics">
-                <div class="analyticsSection">
-                    <span class="number">12</span>
-                    <span class="">Projects</span>
-                </div>
-                <div class="analyticsSection">
-                    <span class="number">771</span>
-                    <span>Followers</span>
-                </div>
-                <div class="analyticsSection">
-                    <span class="number">771</span>
-                    <span>Followers</span>
-                </div>
-            </div>
-            <div class="info">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quo at earum, vero provident minima non dicta et maiores quaerat id harum deleniti dolorem. Eum, ipsum. Illum veniam itaque accusantium?
-            </div>
-        </div>
-    </main>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
