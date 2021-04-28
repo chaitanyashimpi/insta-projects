@@ -1,17 +1,17 @@
 # Analog Clock using HTML, CSS and JS
 
-<video src="./3.mp4">
+![image](https://user-images.githubusercontent.com/36589853/116362883-2c43e900-a820-11eb-8683-cacf977600d6.png)
+
 
 # What will be covered in this Repo:
 
 ```
-1. All different small and big projects based on Instagram Post will be avilable in this repo.
-2. The code is avilable to use for free.
+In this project, we are going to code an analogy clock using HTML, CSS and JS
 ```
 
-# Checkout My Instagram:
+# Checkout the Insatgram Post:
 
-[<img alt="Instagram" src="https://img.shields.io/badge/Instagram%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>](https://instagram.com/chaitanyashimpi)
+<h4><a style="color: #f9b52e; font-weight: bold; text-decoration: none; " href="https://www.instagram.com/p/CNhU280KCio/">Instagram Post on Analogy Clock using HTML and CSS</a></h4>
 
 # LICENSE:
 
