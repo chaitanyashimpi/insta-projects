@@ -10,6 +10,11 @@ What will be covered in this Repo:
 2. The code is avilable to use for free.
 ```
 
+Checkout My Instagram:
+==========================
+[<img alt="Instagram" src="https://img.shields.io/badge/Instagram%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>](https://instagram.com/chaitanyashimpi)
+
+
 LICENSE:
 ==========================
 Copyright (c) 2021 Chaitanya Shimpi
