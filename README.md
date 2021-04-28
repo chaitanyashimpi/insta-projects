@@ -1,61 +1,14 @@
 # Projects based on Post pushed on Instagram
 
+![image](https://user-images.githubusercontent.com/36589853/116358413-43340c80-a81b-11eb-8625-60747ba1f897.png)
 
 
 What will be covered in this Repo:
 ==========================
 ```
-1. speedtest Introduction
-2. How to Test internet speed
+1. All different small and big projects based on Instagram Post will be avilable in this repo.
+2. The code is avilable to use for free.
 ```
-
-Speedtest Introduction:
-==========================
-The internet connections in our homes and offices can differ by internet service providers (ISPs), allowable traffic limit, and most importantly speed. So what do you usually do when you want to test the speed our connection? You google it, right? How about testing the internet speed using Python from your machine!
-
-Speedtest cli library provides Command line interface for testing internet bandwidth using speedtest.net
-
-If you wish to know more about it, you can refer to [Speedtest Documentation](https://pypi.org/project/speedtest-cli/). Use this link to navigate to the documentation.
-
-Instructions:
-==========================
-In order to access the Python library, you need to install it into your Python environment, use the following command to install Speedtest
-
-<h4><code> pip install speedtest-cli </code></h4>
-
-Now, let's import the package in our Python script.
-
-<h4><code> import speedtest </code></h4>
-
-Let's create an instance of Speedtest and call it st
-
-<h4><code> st = speedtest.Speedtest() </code></h4>
-
-Let's move forward and check for download speed. We will make use of download method to fetch the speed and store in d_st
-
-<h4><code> d_st = st.download() </code></h4>
-
-Similarly, to check for the upload speed, we will make use of upload method to fetch the speed and store in u_st
-
-<h4><code> u_st = st.upload() </code></h4>
-
-Once done, let's display the download and upload speed. (This will show the speed in bytes, so we will multiply it by 8000)
-
-<h4><code> print("Your Download speed is", d_st/8000) </code>
-<br/><br>
-<code> print("Your Upload speed is", u_st/8000) </code>
- </4>
- 
-Let's check for ping. We can do so by making use of the following command.
-
-<h4><code> st.get_servers([]) </code></h4>
-
-Let's fetch the ping and store it in ping, we will make use of results.ping for the same.
-
-<h4> <code>ping = st.results.ping</code>
-<br><br>
-<code>print("Your Ping is", ping)</code>
-</h4>
 
 LICENSE:
 ==========================
